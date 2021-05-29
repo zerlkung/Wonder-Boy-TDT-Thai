@@ -1,0 +1,1433 @@
+,,language_name,,ไทย,Français,Español,Deutsch,Italiano,Português Brasileiro,Japanese
+,,language_name_lowercase,,ไทย,français,español,deutsch,italiano,português brasileiro,japanese
+,,language_name_english,,English,French,Spanish,German,Italian,Brazilian Portuguese,Japanese
+,,title_play,,เล่น,jouer,jugar,spielen,gioca,jogar,スタート
+,,title_gallery,,แกลเลอรี,galerie,galería,galerie,galleria,galeria,ギャラリー
+,,title_options,,ตัวเลือก,options,opciones,optionen,opzioni,opções,オプション
+,,title_quit,,ออก,quitter,salir,beenden,esci,sair,やめる
+,an,title_copyright,,"© SEGA/LAT/DotEmu Original game © SEGA/LAT, Developed by Lizardcube, แปลภาษาไทยโดย zerlkung",,,,,,
+,X,title_xb1_start,,เริ่มเกม,commencer le jeu,iniciar partida,spiel starten,inizia partita,iniciar jogo,ゲームスタート
+,X,title_xb1_switch_profile_prompt,,เปลี่ยนโปรไฟล์,Changer de profil,Cambiar de perfil,Profil wechseln,Cambia profilo,Mudar de perfil,プロフィールの変更
+,X,title_xb1_please_wait,,โปรดรอ,patiente quelques instants,espera,bitte warten,attendi,aguarde,おまちください
+,X,title_xb1_username,,เข้าสู่ระบบด้วย %(NAME),Connecté en tant que %(NAME),Se ha iniciado sesión como %(NAME),Eingeloggt als %(NAME),Accesso effettuato come %(NAME),Conectado como %(NAME),%(NAME)でログイン中
+,,save_header_no,,บันทึก %d,SAUVEGARDE %d,PARTIDA %d,SPIELSTAND %d,SALVATAGGIO %d,SALVAR %d,セーブ%d
+,,save_header_date,,%(HOURS):%(MINUTES),%(HOURS):%(MINUTES),%(HOURS):%(MINUTES),%(HOURS):%(MINUTES),%(HOURS):%(MINUTES),%(HOURS):%(MINUTES),%(HOURS):%(MINUTES)
+,,save_newgame,,เริ่มเกมใหม่,nouvelle partie,partida nueva,neues spiel,nuova partita,novo jogo,ニューゲーム
+,,save_empty,,ว่างเปล่า,vide,vacío,leer,vuoto,vazio,なし
+,,save_newgame_prompt,,สร้างบันทึกใหม่,Nouvelle partie,Crear partida nueva,Neuen Spielstand erstellen,Crea nuovo salvataggio,Criar novo,新しいセーブ
+,,save_delete_prompt,,ลบบันทึก,Effacer partie,Borrar partida,Spielstand löschen,Elimina salvataggio,Excluir jogo,消す
+,,save_resume_prompt,,กลับสู่เกม,Continuer partie,Continuar partida,Spiel fortsetzen,Riprendi partita,Retomar jogo,ゲームの再開
+,,save_select_slot,,เลือกช่องบันทึก,CHOIX DE LA PARTIE,SELECCIONAR ESPACIO,SPEICHERPLATZ WÄHLEN,SELEZIONA SLOT DI SALVATAGGIO,SELEC. JOGO SALVO,セーブスロットを選ぶ
+,,save_select_difficulty,,เลือกระดับความยาก,CHOIX DE LA DIFFICULTÉ,SELECCIONAR DIFICULTAD,SCHWIERIGKEIT WÄHLEN,SELEZIONA DIFFICOLTÀ,SELEC. DIFICULDADE,難しさを選ぶ
+,,save_select_difficulty_prompt,,เลือกระดับความยาก,Sélectionner difficulté,Seleccionar dificultad,Schwierigkeit wählen,Seleziona difficoltà,Selecionar dificuldade,難しさを選ぶ
+,,save_select_hero,,เลือกตัวละคร,CHOIX DU PERSONNAGE,SELECCIONAR PERSONAJE,CHARAKTER WÄHLEN,SELEZIONA PERSONAGGIO,SELEC. PERSONAGEM,キャラクターを選ぶ
+,,save_select_hero_prompt,,เริ่มเกม,Commencer le jeu,Iniciar partida,Spiel starten,Inizia partita,Iniciar jogo,ゲームスタート
+,,save_delete_confirm_title,,ลบบันทึก?,EFFACER LA PARTIE ?,¿BORRAR PARTIDA?,SPIELSTAND LÖSCHEN?,ELIMINARE IL SALVATAGGIO?,EXCLUIR JOGO?,データを削除しますか？
+,,save_delete_confirm_desc,,คุณแน่ใจไหมว่าต้องการลบบันทึกนี้? ความคืบหน้าของเกมทั้งหมดจะหายไป!,Veux-tu vraiment effacer cette partie ? Toute progression au sein du jeu sera perdue !,¿Seguro que quieres borrar esta partida guardada? ¡Se perderá todo el progreso realizado!,Spielstand wirklich löschen? Alle Spielfortschritte gehen verloren!,Vuoi eliminare questo salvataggio? Tutti i progressi di gioco andranno persi!,Deseja mesmo excluir este jogo salvo? Você perderá todo o progresso!,このセーブデータを削除してよろしいですか？　進行状況が失われます！
+,,save_delete_confirm_delete,,"ใช่, ลบบันทึกนี้","oui, effacer cette partie","sí, borrar esta partida","ja, spielstand löschen","sì, elimina questo salvataggio","sim, excluir jogo salvo",はい、削除します
+,,save_delete_confirm_cancel,,"ไม่, กลับไปที่เมนู","non, revenir au menu","no, volver al menú","nein, zurück zum menü","no, torna al menu","não, voltar ao menu",いいえ、メニューに戻ります
+,,save_delete_confirm_prompt,,ยืนยัน,Confirmer,Confirmar,Bestätigen,Conferma,Confirmar,決定
+,,password_input_title,,ป้อนรหัสผ่าน RETRO,MOT DE PASSE RÉTRO,INTRODUCIR CONTRASEÑA RETRO,RETRO-PASSWORT EINGEBEN,INSERISCI PASSWORD RETRO,INSERIR SENHA RETRÔ,レトロ パスワードを入力
+,,password_input_prompt,,ป้อนรหัสผ่าน retro,Entrer un mot de passe rétro,Introducir contraseña retro,Retro-Passwort eingeben,Inserisci password retro,Insira a senha retrô,レトロ パスワードを入力
+,,password_input_desc,,"คุณสามารถเล่นเกมเก่าต่อได้โดยใช้รหัสผ่านจากเวอร์ชันปี 1989.
+คุณสามารถรับรหัสผ่านใหม่ได้ในหมู่บ้าน.","Il est possible de continuer une partie grâce à un mot de passe de la version de 1989.
+Tu peux aussi obtenir un nouveau mot de passe au village.","Puedes continuar una partida antigua usando una contraseña de la versión de 1989.
+También puedes obtener nuevas contraseñas en la aldea.","Du kannst ein altes Spiel fortsetzen, indem du ein Passwort aus der 1989-Version verwendest.
+Im Dorf bekommst du auch neue Passwörter.","Puoi riprendere una vecchia partita usando una password della versione del 1989.
+Puoi anche ottenere nuove password nel villaggio.","Você pode retomar um jogo antigo usando uma senha da versão de 1989.
+Você também pode obter novas senhas no vilarejo.","1989年バージョンのパスワードがあれば、その続きからプレイできます。
+また、村で新しいパスワードを入手することもできます。"
+,,password_input_validate_prompt,,ยืนยันรหัสผ่าน,Valider le mot de passe,Confirmar contraseña,Passwort bestätigen,Conferma password,Confirmar senha,パスワードの確認
+,,move_prompt,,เคลื่อนที่,Se déplacer,Moverse,Bewegen,Spostati,Mover,移動
+,,select_prompt,,เลือก,Choisir,Seleccionar,Auswählen,Seleziona,Selecionar,選ぶ
+,,enter_prompt,,ตกลง,Entrer,Validar,Eingeben,Conferma,Validar,決定
+,,toggle_prompt,,สลับ,Basculer,Alternar,An/Aus,Alterna,Alternar,オン/オフ
+,,choose_prompt,,เลือก,Choisir,Elegir,Wählen,Scegli,Escolher,選ぶ
+,,adjust_prompt,,ปรับ,Ajuster,Ajustar,Anpassen,Regola,Ajustar,調整
+,,back_prompt,,กลับ,Retour,Atrás,Zurück,Indietro,Voltar,戻る
+,,continue_prompt,,ดำเนินการต่อ,Continuer,Continuar,Fortsetzen,Continua,Continuar,コンティニュー
+,,retry_prompt,,ลองอีกครั้ง,Réessayer,Reintentar,Nochmal,Riprova,Repetir,やり直す
+,,yes_prompt,,ใช่,Oui,Sí,Ja,Sì,Sim,はい
+,,no_prompt,,ไม่,Non,No,Nein,No,Não,いいえ
+,,edit_prompt,,แก้ไข,Editer,Modificar,Bearbeiten,Modifica,Editar,編集
+,,delete_prompt,,ลบ,Effacer,Borrar,Löschen,Elimina,Excluir,削除
+,,difficulty_0_name,,ง่าย,Facile,Fácil,Einfach,Facile,Fácil,やさしい
+,,difficulty_0_desc,,"สำหรับผู้เล่นทั่วไปหรือเด็ก!
+มอนสเตอร์เอาชนะได้ง่าย.
+คุณจะได้รับยาเพิ่มพลังชีวิต.","Pour les joueurs occasionnels ou les jeunots !
+Les monstres sont moins coriaces.
+Des potions de vie supplémentaires sont fournies.","¡Para jugadores jóvenes u ocasionales!
+Los monstruos son más fáciles de derrotar.
+Recibes pociones de vida extras.","Für Neulinge und Jünglinge!
+Monster sind leichter zu schlagen.
+Du bekommst extra Lebenstränke.","Per giocatori occasionali o non esperti!
+Sconfiggere i mostri è più facile.
+Disponi di un numero maggiore di pozioni curative.","Para jogadores casuais ou crianças!
+Os monstros são mais fáceis.
+Você ganha mais poções de vida.","気楽に遊べる、子供向け！
+モンスターはあまり強くない。
+復活の薬を余分に持てる。"
+,,difficulty_1_name,,ปกติ,Normal,Normal,Normal,Normale,Normal,ノーマル
+,,difficulty_1_desc,,"ความยากปกติ. 
+เป็นความท้าทายที่ยุติธรรมสำหรับผู้เล่นส่วนใหญ่.","Difficulté normale.
+Un challenge adapté à la plupart des joueurs.","Dificultad normal.
+Un reto para la mayoría de jugadores.","Normale Schwierigkeit.
+Für die meisten Spieler geeignet.","Difficoltà media. 
+Una sfida adatta alla maggior parte dei giocatori.","Dificuldade normal. 
+Um desafio justo para a maioria dos jogadores.","普通の難しさ。
+ほとんどのプレイヤーにおすすめ。"
+,,difficulty_2_name,,ยาก,Difficile,Difícil,Schwer,Difficile,Difícil,ハード
+,,difficulty_2_desc,,"สำหรับนักผจญภัยที่มีประสบการณ์!
+มอนสเตอร์ยากที่จะเอาชนะ.
+คุณมีเวลาจำกัด.","Pour les aventuriers aguerris !
+Les monstres sont plus coriaces.
+Le temps est limité.","¡Para aventureros veteranos!
+Los monstruos son más difíciles de derrotar.
+Tienes un tiempo limitado.","Für erfahrene Abenteurer!
+Monster sind schwer zu schlagen.
+Es gibt ein Zeitlimit.","Per avventurieri esperti!
+Sconfiggere i mostri è più difficile.
+Il tempo a disposizione è limitato.","Para aventureiros experientes!
+Os monstros são mais difíceis.
+Você tem um limite de tempo.","歴戦の冒険者専用！
+モンスターはかなり手ごわい。
+時間制限がある。"
+,,difficulty_3_name,,ท้าทาย,Extrême,Extrema,Extrem,Estrema,Extremo,エクストリーム
+,,difficulty_3_desc,,ยากโครตๆ.,Non recommandé.,No recomendado.,Nicht zu empfehlen.,Caldamente sconsigliata.,Não recomendado.,お勧めしません。
+,,hero_select_0,,เด็กชาย,Boy,Boy,Junge,Boy,Boy,少年
+,,hero_select_0_desc,,"นักผจญภัยสุดคลาสสิกเขาแลกสเก็ตบอร์ดเป็นดาบและโล่.
+เขาท่องไปใน มอนสเตอร์แลน เพื่อค้นหา Meka Dragon.
+(Impeccable haircut)","L'aventurier classique qui a troqué son skate contre une épée et un bouclier.
+Ce garçon téméraire sillonne Monster Land à la recherche du Meka Dragon.
+(Coiffure impeccable.)","El aventurero clásico. Cambió el monopatín por una espada y un escudo.
+Recorre Monster Land en busca del Mekadragón.
+(Corte de pelo impecable)","Der klassische Abenteurer. Hat Skateboard gegen Schwert und Schild getauscht.
+Durchstreifte das Monster Land auf der Suche nach dem Meka-Drachen.
+(Tadelloser Haarschnitt)","Il leggendario avventuriero. Ha barattato lo skateboard con una spada e uno scudo.
+Ha esplorato Monster Land alla ricerca del Drago Meka.
+(Taglio di capelli impeccabile)","O aventureiro clássico. Ele trocou o skate por uma espada e um escudo.
+Ele vaga por Monster Land em busca do Dragão Cospe Fogo.
+(Penteado impecável)","クラシックな冒険者。スケボーを剣と盾に交換した。
+メカドラゴンを探して、モンスターランドを旅している。
+（髪型がカッコいい）"
+,,hero_select_1,,เด็กหญิง,Girl,Girl,Mädchen,Girl,Girl,少女
+,,hero_select_1_desc,,"เธอมาเพื่อลงมือทำอะไรบางอย่างและเธอหมายถึงธุรกิจ!
+เธอท่องไปใน มอนสเตอร์แลน เพื่อค้นหา Meka Dragon.
+(Impeccable haircut)","Accro à l'action, elle est venue pour mettre le feu aux poudres !
+Cette fille intrépide sillonne Monster Land à la recherche du Meka Dragon.
+(Coiffure impeccable.)","¡Tiene ganas de acción y se lo toma muy en serio!
+Recorre Monster Land en busca del Mekadragón.
+(Corte de pelo impecable)","Gefahr ist ihr Geschäft, und sie meint es ernst!
+Durchstreifte das Monster Land auf der Suche nach dem Meka-Drachen.
+(Tadelloser Haarschnitt)","È a caccia di avventure e fa molto sul serio!
+Ha esplorato Monster Land alla ricerca del Drago Meka.
+(Pettinatura impeccabile)","Ela tem sede de ação e não está para brincadeira!
+Ela vaga por Monster Land em busca do Dragão Cospe Fogo.
+(Penteado impecável)","派手なアクションがしたくてやって来た。やる気は本物！
+メカドラゴンを探して、モンスターランドを旅している。
+（髪型がカッコいい）"
+,,gallery_title,,แกลเลอรี่,GALERIE,GALERÍA,GALERIE,GALLERIA,GALERIA,ギャラリー
+,,gallery_select_prompt,,เลือก,Choisir,Seleccionar,Auswählen,Seleziona,Selecionar,選ぶ
+,,gallery_view_prompt,,ดู,Voir,Ver,Anzeigen,Visualizza,Ver,見る
+,,gallery_date_fmt_year,,%(YEAR),%(YEAR),%(YEAR),%(YEAR),%(YEAR),%(YEAR),%(YEAR)年
+,,gallery_date_fmt_yearmonth,,%(YEAR)/%(MONTH),%(YEAR)/%(MONTH),%(YEAR)/%(MONTH),%(MONTH)/%(YEAR),%(MONTH)/%(YEAR),%(MONTH)/%(YEAR),%(YEAR)年%(MONTH)月
+,,gallery_category_illustrations,,ภาพประกอบ,Illustrations,Ilustraciones,Illustrationen,Illustrazioni,Ilustrações,イラストレーション
+,,gallery_category_characters,,ตัวละคร,Personnages,Personajes,Charaktere,Personaggi,Personagens,キャラクター
+,,gallery_category_character_design,,การออกแบบตัวละคร,Conception des personnages,Diseño de personajes,Charakter-Design,Design personaggi,Design de personagens,キャラクターデザイン
+,,gallery_category_character_dev,,การพัฒนาตัวละคร,Développement des personnages,Desarrollo de personajes,Charakter-Entwicklung,Sviluppo personaggi,Desenv. de personagens,キャラクター開発
+,,gallery_category_character_anim,,แอนิเมชั่นตัวละคร,Animation des personnages,Animación de personajes,Charakter-Animation,Animazione personaggi,Animação de personagens,キャラクターアニメーション
+,,gallery_category_monsters,,มอนสเตอร์,Monstres,Monstruos,Monster,Mostri,Monstros,モンスター
+,,gallery_category_dragons,,มังกร,Dragons,Dragones,Drachen,Draghi,Dragões,ドラゴン
+,,gallery_category_locations,,สถานที่,Lieux,Escenarios,Schauplätze,Luoghi,Locais,ステージ
+,,gallery_category_backgrounds,,ภาพพื้นหลัง,Arrière-plans,Fondos,Hintergründe,Sfondi,Cenários de fundo,背景
+,,gallery_category_roughs,,Roughs,Brouillons,Bocetos,Skizzen,Bozze,Esboços,ラフ
+,,gallery_category_animations,,ภาพเคลื่อนไหว,Animations,Animaciones,Animationen,Animazioni,Animações,アニメーション
+,,gallery_category_audio_sessions,,Audio Sessions,Sessions audio,Sesiones de audio,Audio-Sessions,Sessioni audio,Sessões de áudio,オーディオセッション
+,,gallery_category_trailers,,Trailers,Bandes-annonces,Tráileres,Trailer,Trailer,Trailers,トレイラー
+,,gallery_category_promotional_video,,วิดีโอส่งเสริมการขาย,Vidéo promotionnelle,Vídeo promocional,Werbevideo,Video promozionale,Vídeo promocional,プロモーションビデオ
+,,pause_title,,หยุด,pause,pausa,pause,pausa,pausa,一時停止
+,,pause_resume,,ดำเนินการต่อ,continuer,continuar,fortsetzen,riprendi,retomar,再開
+,,pause_resume_prompt,,ดำเนินการต่อ,Continuer,Continuar,Fortsetzen,Riprendi,Retomar,再開
+,,pause_options,,ตัวเลือก,options,opciones,optionen,opzioni,opções,オプション
+,,pause_options_prompt,,ตัวเลือก,Options,Opciones,Optionen,Opzioni,Opções,オプション
+,,pause_return,,กลับไปที่ไตเติ้ล,retour au titre,volver al título,zurück zum titel,torna al titolo,voltar ao início,タイトルへ
+,,pause_return_prompt,,กลับไปที่ไตเติ้ล,Retour au titre,Volver al título,Zurück zum titel,Torna al titolo,Voltar ao início,タイトルへ戻る
+,,pause_help,,ช่วยเหลือ,aide,ayuda,hilfe,guida,ajuda,遊び方
+,,pause_how_to_play,,วิธีการเล่น,aide,ayuda,hilfe,guida,ajuda,遊び方
+,,options_retro,,ดั้งเดิม,rétro,retro,retro,retro,retrô,レトロ
+,,options_audio,,เสียง,audio,audio,audio,audio,áudio,音
+,,options_video,,วิดีโอ,vidéo,vídeo,grafik,video,vídeo,画面
+,,options_rumble,,การสั่น,vibration,vibración,vibration,vibrazione,"vibração
+",振動
+,,options_settings,,การตั้งค่า,réglages,configuración,einstellungen,impostazioni,configurações,設定
+,,options_controls,,การควบคุม,commandes,controles,steuerung,comandi,controles,操作方法
+,,options_language,,ภาษา,langue,idioma,sprache,lingua,idioma,言語
+,,options_credits,,เครดิต,crédits,créditos,mitwirkende,riconoscimenti,créditos,クレジット
+,,options_debug,,debug,débug,debug,debug,debug,depurar,デバッグ
+,,options_back,,กลับ,retour,atrás,zurück,indietro,voltar,戻る
+,,options_rumble_rumble,,การสั่น,vibrations,vibración,vibration,vibrazione,"vibração
+",振動
+,,options_rumble_rumble_switch,,การสั่น,vibrations,vibración,hd-vibration,vibrazione,"vibração
+",HD振動
+,,options_language_revert,,<ภาษาเริ่มต้น>,<langue par défaut>,<idioma predeterminado>,<standardsprache>,<lingua predefinita>,<idioma padrão>,<デフォルトの言語>
+,,options_retro_retro_visuals,,ภาพดั้งเดิม visuals,graphismes rétro,gráficos retro,retro-grafik,grafica retro,visual retrô,レトロ ビジュアル
+,,options_retro_retro_music,,เสียงดั้งเดิม,musique rétro,música retro,retro-musik,musica retro,música retrô,レトロ ミュージック
+,,options_retro_retro_sfx,,sfx ดั้งเดิม,son rétro,efectos retro,retro-sfx,effetti retro,sons retrô,レトロ 効果音
+,,options_retro_retro_inventory,,ช่องเก็บของดั้งเดิม,inventaire rétro,inventario retro,retro-inventar,inventario retro,inventário retrô,レトロ もちもの
+,,options_retro_retro,,ดั้งเดิม,rétro,retro,retro,retro,retrô,レトロ
+,,options_retro_modern,,ทันสมัย,moderne,moderno,modern,moderno,moderno,モダン
+,,options_retro_hide_icon,,ซ่อนไอค่อน,masquer icône,ocultar icono,symbol ausblenden,nascondi icona,ocultar ícone,アイコン非表示
+,,options_retro_advanced,,ตั้งค่าขั้นสูง,réglages avancés,configuración avanzada,erweiterte einstellungen,impostazioni avanzate,configurações avançadas,詳細設定
+,,options_retro_retro_effects,,เอฟเฟคหน้าจอดั้งเดิม,effets écran rétro,efectos de pantalla retro,röhrenbild-effekt,schermo retro,monitor antigo,レトロモニター効果
+,,options_retro_opt_scanlines,,scanline effect,effet de balayage,líneas de exploración,scanline-effekt,effetto scanline,efeito scanline,スキャンライン効果
+,,options_retro_opt_old_monitor,,เอฟเฟคหน้าจอดั้งเดิม,effet écran rétro,pantalla antigua,röhrenbild-effekt,schermo retro,monitor antigo,レトロモニター効果
+,,options_retro_opt_monitor_curvature,,monitor curvature,courbure moniteur,curvatura del monitor,monitor-krümmung,curvatura monitor,curvatura do monitor,モニター曲率
+,,options_retro_opt_fm_unit,,fm sound unit,extension sonore fm,fm sound unit,fm sound unit,fm sound unit,extensão de som fm,FMサウンドユニット
+,,options_audio_music_volume,,เพลง,musique,música,musik,musica,música,BGM
+,,options_audio_sfx_volume,,sfx,son,efectos,sfx,effetti,sons,効果音
+,,options_video_resolution,,ความละเอียด,résolution,resolución,auflösung,risoluzione,resolução,解像度
+,,options_video_game_resolution,,ความละเอียดของเกม,résolution du jeu,resolución del juego,spiel-auflösung,risoluzione gioco,resolução do jogo,ゲーム解像度
+,,options_video_fs_resolution,,ความละเอียดเต็มหน้าจอ resolution,résolution plein écran,resolución de pantalla completa,vollbild-auflösung,risoluzione schermo intero,resolução em tela cheia,全画面解像度
+,,options_video_fs_resolution_desktop,,เช่นเดียวกับเดสก์ท็อป,identique au bureau,igual que el escritorio,wie desktop,identica a desktop,mesma da área de trabalho,デスクトップと同じ
+,,options_video_backbuffer_resolution,,backbuffer resolution,résolution tampon arrière,resolución de búfer secundario,backbuffer-auflösung,risoluzione buffer nascosto,resolução backbuffer,バックバッファ解像度
+,,options_video_display_mode,,โหมดการแสดงผล,mode d'affichage,modo de pantalla,anzeigemodus,modalità di visualizzazione,modo de exibição,画面モード
+,,options_video_display_mode_fullscreen,,เต็มจอ,plein écran,pantalla completa,vollbild,schermo intero,tela cheia,全画面
+,,options_video_display_mode_windowed,,หน้าต่าง,fenêtré,ventana,fenstermodus,finestra,modo janela,ウィンドウ
+,,options_video_display_mode_borderless,,ไร้ขอบ,sans bordure,sin bordes,ohne rand,senza bordi,sem margem,ボーダーレス
+,,options_video_vsync,,vertical sync,synchro verticale,sincronización vertical,vertikale synchronisation,sincronizzazione verticale,sincronização vertical,垂直同期
+,,options_video_framerate_limiter,,จำกัดเฟรมเรต,limiteur de framerate,limitador de fotogramas,framerate-begrenzer,limitatore frequenza fotogrammi,limitador de taxa de quadros,フレームレート制限
+,,options_video_display_framerate,,แสดงเฟรมเรต,afficher framerate,fotogramas por segundo,framerate anzeigen,frequenza fotogrammi visualizzati,exibir taxa de quadros,画面フレームレート
+,,options_video_display_21_9_borders,,display 21:9 borders,afficher bordures 21:9,bordes de 21:9,21:9 ränder anzeigen,bordi 21:9,exibir margens 21:9,画面 21:9 ボーダー
+,,options_video_display_21_9_4_3_borders,,display 21:9 / 4:3 borders,afficher bordures 21:9 / 4:3,bordes de 21:9/4:3,21:9/4:3 ränder anzeigen,bordi 21:9 / 4:3,exibir margens 21:9 / 4:3,画面 21:9 / 4:3 ボーダー
+,,options_video_screen_setup,,การตั้งค่าหน้าจอ,config. écran,configuración de pantalla,bildschirm-setup,impostazioni schermo,config. tela,画面の設定
+,,options_controls_gamepad_icons,,ไอคอนเกมแพด,icônes manette,iconos de mando,gamepad-symbole,icone controller,ícones de gamepad,ゲームパッドアイコン
+,,options_controls_gamepad_icons_xb1,,Xbox One,Xbox One,Xbox One,Xbox One,Xbox One,Xbox One,Xbox One
+,,options_controls_gamepad_icons_x360,,Xbox 360,Xbox 360,Xbox 360,Xbox 360,Xbox 360,Xbox 360,Xbox 360
+,,options_controls_gamepad_icons_ps4,,PS4™,PS4™,PS4™,PS4™,PS4™,PS4™,PS4™
+,,options_controls_gamepad_icons_steam,,Steam Controller,Steam Controller,Steam Controller,Steam Controller,Steam Controller,Steam Controller,Steamコントローラー
+,,options_controls_pause_when_unfocused,,หยุดชั่วคราวเมื่อไม่ได้โฟกัส,pause en hors focus,pausa al desenfocar,pausieren wenn unfokussiert,pausa quando non attivo,pausa quando sem foco,フォーカスされていない時一時停止
+,,options_controls_allow_keyboard_when_unfocused,,อนุญาตให้ใช้แป้นพิมพ์เมื่อไม่ได้โฟกัส,autoriser clavier en hors focus,permitir teclado al desenfocar,tastatur erlauben wenn unfokussiert,consenti tastiera quando non attivo,permitir teclado quando sem foco,フォーカスされていない時キーボード許可
+,,options_controls_allow_gamepad_when_unfocused,,อนุญาตให้ใช้เกมแพด เมื่อไม่ได้โฟกัส,autoriser manette en hors focus,permitir mando al desenfocar,gamepad erlauben wenn unfokussiert,consenti controller quando non attivo,permitir gamepad quando sem foco,フォーカスされていない時ゲームパッド許可
+,,options_controls_settings,,ควบคุมการตั้งค่า,paramètres commandes,ajustes de control,steuerungseinstellungen,impostazioni comandi,configurações de controles,操作設定
+,,options_controls_keyboard_settings,,การตั้งค่าแป้นพิมพ์,paramètres clavier,ajustes de teclado,tastatureinstellungen,impostazioni tastiera,configurações de teclado,キーボード設定
+,,options_controls_gamepad_settings,,การตั้งค่า เกมแพด,paramètres manette,ajustes de mando,gamepad-einstellungen,impostazioni controller,configurações de gamepad,ゲームパッド設定
+,,options_controls_gamepad_number,,หมายเลข เกมแพด,numéro manette,,,,,
+,,options_controls_gamepad_setup_controls,,การควบคุม เกมแพด,contrôles manette,,,,,
+,,options_controls_gamepad_desc_number,,เกมแพด  %(NO),manette %(NO),,,,,
+,,options_controls_gamepad_desc_connected,,เชื่อมต่อ,connectée,,,,,
+,,options_controls_gamepad_desc_disconnected,,ตัดการเชื่อมต่อ,déconnectée,,,,,
+,,options_controls_press_button_prompt,,"กดปุ่มเกมแพด/ทิศทางที่ต้องการสำหรับ [%(ACTION)], หรือ","appuyer sur la direction/touche souhaitée de la manette pour [%(ACTION)], ou","pulsa el botón del mando/dirección que desees para [%(ACTION)], o",drücke gewünschte gamepad-taste/richtung für [%(ACTION)] oder,"premi pulsante/tasto/direzione controller per [%(ACTION)], o","aperte o botão/direcional desejado do gamepad para atribuir a [%(ACTION)], ou",[%(ACTION)]に使用する任意のゲームパッドボタン/方向を押す、または
+,,options_controls_press_key_prompt,,"กดปุ่มที่ต้องการสำหรับ [%(ACTION)], หรือ","appuyer sur la touche souhaitée pour  [%(ACTION)], ou","pulsa la tecla que desees para [%(ACTION)], o",drücke gewünschte taste für [%(ACTION)] oder,"premi tasto per [%(ACTION)], o","aperte a tecla desejada para atribuir a [%(ACTION)], ou",[%(ACTION)]に使用する任意のキーを押す、または
+,,options_controls_press_key_prompt_b,,ยกเลิก,pour annuler,para cancelar,zum abbrechen,per annullare,para cancelar,キャンセル
+,,options_controls_reset_to_default,,<รีเซ็ตเป็นค่าเริ่มต้น>,<réinitialiser aux valeurs par défaut>,<restablecer predeterminado>,<zurück zum standard>,<ripristina impostazioni predefinite>,<voltar aos padrões>,<デフォルトに戻す>
+,,options_controls_mapping_edit_prompt,,แก้ไขแมปปุ่ม,modifier configuration commandes,modificar asignación,belegung bearbeiten,modifica mappatura,editar mapeamento,マップ編集
+,,options_controls_mapping_delete_prompt,,ลบแมปปุ่ม,supprimer configuration commandes,borrar asignación,belegung löschen,elimina mappatura,excluir mapeamento,マップ削除
+,,options_controls_mapping_none,,ไม่มี,aucun,nada,n/v,n/d,nenhum,なし
+,,options_unknown,,ไม่ทราบ,inconnu,desconocido,unbekannt,sconosciuto,desconhecido,未知
+,,controls_open_door,,เปิดประตู,ouvrir une porte,abrir puerta,tür öffnen,apri porta,abrir porta,ドアを開ける
+,,controls_move,,เคลื่อนที่,se déplacer,moverse,bewegen,spostati,mover,移動
+,,controls_crouch,,หมอบ,s'accroupir,agacharse,ducken,abbassati,agachar,しゃがむ
+,,controls_pause,,หยุด,pause,pausa,pause,pausa,pausa,一時停止
+,,controls_use_item,,ใช้ไอเทม,utiliser un objet,usar objeto,item benutzen,usa oggetto,usar item,アイテムを使う
+,,controls_select_item,,เลือกไอเทม,sélectionner un objet,seleccionar objeto,item auswählen,seleziona oggetto,selec. item,アイテムを選ぶ
+,,controls_inventory,,ช่องเก็บของ,inventaire,inventario,inventar,inventario,inventário,もちもの
+,,controls_jump,,กระโดด,sauter,saltar,springen,salta,saltar,ジャンプ
+,,controls_swim,,ว่ายน้ำ,nager,nadar,schwimmen,nuota,nadar,泳ぐ
+,,controls_fly,,บิน,voler,volar,fliegen,vola,voar,飛ぶ
+,,controls_grip,,ไต่,s'accrocher,agarrarse,festhalten,aggrappati,pendurar-se,つかまる
+,,controls_grip2,,ไต่ผนัง,s'accrocher aux murs,agarrarse a las paredes,an wänden festhalten,aggrappati ai muri,pendurar-se em paredes,壁につかまる
+,,controls_grip3,,ไต่ผนังตารางหมากรุก,s'accrocher aux murs à carreaux,agarrarse a las paredes a cuadros,an karowänden festhalten,aggrappati ai muri a scacchi,pendurar-se em paredes quadriculadas,マス模様の壁につかまる
+,,controls_attack,,โจมตี,attaquer,atacar,angreifen,attacca,atacar,攻撃
+,,controls_shield,,โล่,bouclier,usar escudo,schild,usa lo scudo,escudo,ガード
+,,controls_retro_visuals,,ภาพดั้งเดิม,graphismes rétro,gráficos retro,retro-grafik,grafica retro,visual retrô,レトロ ビジュアル
+,,controls_retro_music,,เพลงดั้งเดิม music,musique rétro,música retro,retro-musik,musica retro,música retrô,レトロ ミュージック
+,,controls_retro_audio,,เสียงดั้งเดิม,audio rétro,audio retro,retro-audio,audio retro,áudio retrô,レトロ オーディオ
+,,controls_retro_mode,,โหมดดั้งเดิม,mode rétro,modo retro,retro-modus,modalità retro,modo retrô,レトロ モード
+,,controls_map_up,,บน,haut,arriba,hoch,su,para cima,上
+,,controls_map_down,,ล่าง,bas,abajo,runter,giù,para baixo,下
+,,controls_map_left,,ซ้าย,gauche,izquierda,links,sinistra,esquerda,左
+,,controls_map_right,,ขวา,droite,derecha,rechts,destra,direita,右
+,,controls_map_attack,,โจมตี,attaquer,atacar,angreifen,attacca,atacar,アタック
+,,controls_map_jump,,กระโดด / บิน / ว่ายน้ำ,sauter / voler / nager,saltar/volar/nadar,springen/fliegen/schwimmen,salta / vola / nuota,saltar/voar/nadar,ジャンプ/飛ぶ/泳ぐ
+,,controls_map_item,,ใช้ไอเทม,utiliser objet,usar objeto,item nutzen,usa oggetto,usar item,アイテムを使う
+,,controls_map_inventory,,ช่องเก็บของ,inventaire,inventario,inventar,inventario,inventário,もちもの
+,,controls_map_pause,,หยุด,pause,pausa,pause,pausa,pausa,一時停止
+,,controls_map_menu_enter,,เข้าหน้าเมนู,menu - entrer,seleccionar en menú,menü: betreten,menu - seleziona,validar (menu),メニュー・決定
+,,controls_map_menu_back,,กลับหน้าเมนู,menu - retour,atrás en menú,menü: zurück,menu - indietro,voltar (menu),メニュー・戻る
+,,controls_map_item_prev,,เลือกไอเทมก่อนหน้า,sélectionner objet précédent,seleccionar objeto anterior,voriges item wählen,seleziona oggetto precedente,selecionar item anterior,前のアイテムを選ぶ
+,,controls_map_item_next,,เลือกไอเทมถัดไป,sélectionner objet suivant,seleccionar objeto siguiente,nächstes item wählen,seleziona oggetto successivo,selecionar item seguinte,次のアイテムを選ぶ
+,,controls_map_item_1,,เลือกไอเทมชิ้นที่ 1,sélectionner objet 1,seleccionar objeto 1,item 1 wählen,seleziona oggetto 1,selecionar item 1,アイテム1を選ぶ
+,,controls_map_item_2,,เลือกไอเทมชิ้นที่ 2,sélectionner objet 2,seleccionar objeto 2,item 2 wählen,seleziona oggetto 2,selecionar item 2,アイテム2を選ぶ
+,,controls_map_item_3,,เลือกไอเทมชิ้นที่ 3,sélectionner objet 3,seleccionar objeto 3,item 3 wählen,seleziona oggetto 3,selecionar item 3,アイテム3を選ぶ
+,,controls_map_item_4,,เลือกไอเทมชิ้นที่ 4,sélectionner objet 4,seleccionar objeto 4,item 4 wählen,seleziona oggetto 4,selecionar item 4,アイテム4を選ぶ
+,,controls_map_item_5,,เลือกไอเทมชิ้นที่ 5,sélectionner objet 5,seleccionar objeto 5,item 5 wählen,seleziona oggetto 5,selecionar item 5,アイテム5を選ぶ
+,,controls_map_retro_visuals,,ภาพดั้งเดิม,graphismes rétro,gráficos retro,retro-grafik,grafica retro,visual retrô,レトロ ビジュアル
+,,controls_map_retro_audio,,เสียงดั้งเดิม,audio rétro,audio retro,retro-audio,audio retro,áudio retrô,レトロ オーディオ
+,,controls_source_button,,ปุ่ม %(NUMBER),Bouton %(NUMBER),,,,,
+,,controls_source_axis,,Axis %(NUMBER),แกน %(NUMBER),,,,,
+,,screen_setup_desc,,"ปรับขนาดหน้าจอให้พอดีกับจอแสดงผลของคุณ.
+ตรวจสอบให้แน่ใจว่ามองเห็นมุมสีขาวทั้งหมด.","Règle la taille de l'affichage en fonction de ton écran.
+Veille à ce que tous les coins blancs soient visibles.","Ajusta el tamaño para adaptarlo a tu pantalla.
+Asegúrate de que se vean todas las esquinas blancas.","Passe die Bildschirmgröße an.
+Alle weißen Ecken müssen sichtbar sein.","Regola le dimensioni dello schermo.
+Assicurati che tutti gli angoli bianchi siano visibili.","Ajuste a visualização para caber na tela.
+Todas as bordas brancas devem estar visíveis.","画面のサイズを調整します。
+白い隅が全て見えるようにしてください。"
+,,screen_setup_enlarge,,ขยาย,Agrandir,Agrandar,Vergrößern,Ingrandisci,Aumentar,大きく
+,,screen_setup_shrink,,หด,Réduire,Reducir,Verkleinern,Riduci,Diminuir,小さく
+,,screen_setup_enter_prompt,,ตกลง,Entrer,Validar,Betreten,Conferma,Enviar,決定
+,,screen_setup_cancel_prompt,,ยกเลิก,Annuler,Cancelar,Abbrechen,Annulla,Cancelar,キャンセル
+,,hero0_name_boy,,Hu-Man,Hu-Man,Humano,Jüngling,Umano,Hu-Mano,ヒューマン
+,,hero1_name_boy,,Lizard-Man,Lézard-Man,Hombre lagarto,Echsling,Lucertola,Homem-lagarto,リザードマン
+,,hero2_name_boy,,Mouse-Man,Souris-Man,Hombre ratón,Mausling,Topo,Homem-rato,マウスマン
+,,hero3_name_boy,,Piranha-Man,Piranha-Man,Hombre piraña,Piranha-ling,Piranha,Homem-peixe,ピラニアマン
+,,hero4_name_boy,,Lion-Man,Lion-Man,Hombre león,Löwling,Leone,Homem-leão,ライオンマン
+,,hero5_name_boy,,Hawk-Man,Faucon-Man,Hombre halcón,Falkling,Falco,Homem-falcão,ホークマン
+,,hero0_name_girl,,Hu-Girl,Hu-Girl,Humana,Mädling,Umana,Hu-Mana,ヒューガール
+,,hero1_name_girl,,Lizard-Girl,Lézard-Girl,,,,,リザードガール
+,,hero2_name_girl,,Mouse-Girl,Souris-Girl,,,,,マウスガール
+,,hero3_name_girl,,Piranha-Girl,Piranha-Girl,,,,,ピラニアガール
+,,hero4_name_girl,,Lion-Girl,Lion-Girl,,,,,ライオンガール
+,,hero5_name_girl,,Hawk-Girl,Faucon-Girl,,,,,ホークガール
+,,retro_hero0_name_boy,,HU-MAN,,,,,,
+,,retro_hero1_name_boy,,LIZARD-MAN,,,,,,
+,,retro_hero2_name_boy,,MOUSE-MAN,,,,,,
+,,retro_hero3_name_boy,,PIRANHA-MAN,,,,,,
+,,retro_hero4_name_boy,,LION-MAN,,,,,,
+,,retro_hero5_name_boy,,HAWK-MAN,,,,,,
+,,retro_hero0_name_girl,,HU-GIRL,,,,,,
+,,retro_hero1_name_girl,,LIZARD-GIRL,,,,,,
+,,retro_hero2_name_girl,,MOUSE-GIRL,,,,,,
+,,retro_hero3_name_girl,,PIRANHA-GIRL,,,,,,
+,,retro_hero4_name_girl,,LION-GIRL,,,,,,
+,,retro_hero5_name_girl,,HAWK-GIRL,,,,,,
+,,dragon0_name,,Meka Dragon,Dragon Meka,Mekadragón,Meka-Drache,Drago Meka,Dragão Cospe Fogo,メカドラゴン
+,,dragon1_name,,Mummy Dragon,Dragon Momie,Dragón Momia,Mumien-Drache,Drago Mummia,Dragão Múmia,ミイラドラゴン
+,,dragon2_name,,Dragon Zombie,Dragon Zombie,Dragón Zombi,Drachen-Zombie,Drago Zombi,Dragão Zumbi,ドラゴンゾンビ
+,,dragon3_name,,Captain Dragon,Dragon Capitaine,Dragón Capitán,Kapitän-Drache,Drago Capitano,Dragão Pirata,キャプテンドラゴン
+,,dragon4_name,,Daimyo Dragon,Dragon Daimyo,Dragón Daimio,Daimyo-Drache,Drago Daimyo,Dragão Daimyo,ダイミョードラゴン
+,,dragon5_name,,Vampire Dragon,Dragon Vampire,Dragón Vampiro,Vampir-Drache,Drago Vampiro,Dragão Vampiro,ヴァンパイアドラゴン
+,,sword0_name,,Legendary Sword,Épée Légendaire,Espada legendaria,Legendäres Schwert,Spada Leggendaria,Espada Lendária,伝説の剣
+,,sword0_desc,,ทำมาเพื่อเป็นตำนาน.,"Plus légendaire, tu meurs !",Del material del que están hechos los sueños.,"Der Stoff, aus dem Legenden gemacht werden.",Pronta per entrare nella leggenda.,Um verdadeiro mito.,こういうものから伝説がでっち上げられるのさ。
+,,shield0_name,,Legendary Shield,Bouclier Légendaire,Escudo legendario,Legendärer Schild,Scudo Leggendario,Escudo Lendário,伝説の盾
+,,shield0_desc,,คนโง่บางคนหลงทางในเขาวงกต.,Un imbécile heureux l'avait égaré au beau milieu du labyrinthe.,Algún idiota lo perdió en el laberinto.,Irgendein Idiot hat den im Labyrinth verloren.,Perso da qualche folle avventuriero nel labirinto.,Algum tolo o deixou para trás no labirinto.,どこかのマヌケが迷宮で落としたものだ。
+,,shield0_thanks,,ฉันแน่ใจว่าเขาดีใจที่ได้ผ่านซากปรักหักพัง.,Heureusement que j'aime bien farfouiller.,Me alegro de haber rebuscado en los escombros.,"Gut, dass ich mich durch den Schutt gewühlt habe.",Ho fatto bene ad andare a rovistare tra le macerie.,Ainda bem que eu revirei os escombros.,ガレキを漁ってみてよかったぜ。
+,,armor0_name,,Legendary Armor,Armure Légendaire,Armadura legendaria,Legendäre Rüstung,Armatura Leggendaria,Armadura Lendária,伝説の鎧
+,,armor0_desc,,เรียกว่าตำนานด้วยเหตุผลบางอย่าง.,On ne l'appelle pas Légendaire pour rien.,Se llama legendaria por algo.,Trägt ihren Namen aus gutem Grund.,Se è chiamata Leggendaria ci sarà un motivo.,É chamada de Lendária por um bom motivo.,伝説って呼ばれるのには理由がある。
+,,sword1_name,,Ivory Sword,Épée en Ivoire,Espada de marfil,Elfenbein-Schwert,Spada d'Avorio,Espada de Marfim,アイボリーソード
+,,sword1_desc,,ดาบงาช้างราคาถูก น่าจะผิดกฎหมาย.,Épée premier prix. Probablement pas homologuée.,Espada barata de marfil. Seguramente ilegal.,Billiges Elfenbein-Schwert. Wahrscheinlich illegal.,Spada economica in avorio. Probabilmente illegale.,Espada barata de marfim. Provavelmente ilegal.,安物の象牙の剣。たぶん違法だな。
+,,shield1_name,,Ivory Shield,Bouclier en Ivoire,Escudo de marfil,Elfenbein-Schild,Scudo d'Avorio,Escudo de Marfim,アイボリーシールド
+,,shield1_desc,,"โล่พื้นฐาน ด้วยการออกแบบที่เรียบง่าย.","Bouclier tout simple, look rustique.",Escudo básico de diseño rústico.,"Einfacher Schild, rustikales Design.",Scudo di base dalla forma rudimentale.,Escudo básico de design rústico.,基本の盾だ、いなか臭いデザインの。
+,,armor1_name,,Ivory Armor,Armure en Ivoire,Armadura de marfil,Elfenbein-Rüstung,Armatura d'Avorio,Armadura de Marfim,アイボリーアーマー
+,,armor1_desc,,"ชุดเกราะพื้นฐานมือสอง.","Armure d'occasion, sans fioritures.",Armadura básica de segunda mano.,Einfache Rüstung aus zweiter Hand.,Armatura di base. È di seconda mano.,Armadura básica de segunda mão.,基本の鎧、中古品だ。
+,,sword2_name,,Mithril Sword,Épée de Mithril,Espada de mithril,Mithril-Schwert,Spada di Mithril,Espada de Mithril,ミスリルソード
+,,sword2_desc,,ดาบที่ดีที่สุดที่คุณสามารถจ่ายได้.,"La meilleure arme, sans casser ta tirelire.",La mejor espada que puedes permitirte.,"Das beste Schwert, das du dir leisten kannst.",La spada migliore sulla piazza.,A melhor espada que você poderia comprar.,これこそ最強の剣だ。
+,,sword2_thanks,,"โอเค อาจจะไม่ดีที่สุด.","Bon, peut-être pas la meilleure...","Vale, quizás no sea la mejor.","Okay, vielleicht nicht das beste.","Ok, forse non è proprio la migliore in assoluto.","Tá, talvez não seja a melhor.",まあ、最強じゃあないかもしれんが。
+,,shield2_name,,Mithril Shield,Bouclier de Mithril,Escudo de mithril,Mithril-Schild,Scudo di Mithril,Escudo de Mithril,ミスリルシールド
+,,shield2_desc,,มันทำให้เกิดเสียง *คลิ๊ง* ที่ดี.,Résonne quand on tape dessus.,Hace un bonito sonido.,Macht ein nettes *tsching*-Geräusch.,Fa un bel tintinnio quando viene colpito.,Faz um som de *cling* bem legal.,（チーン）いい音色だろ？
+,,shield2_thanks,,ฉันมั่นใจว่ามันจะอยู่ได้นาน.,Il est probablement très résistant.,Seguro que dura.,Das hält einiges aus.,Ha l'aria resistente.,Deve durar bastante.,長持ちするはずだぜ。
+,,armor2_name,,Mithril Armor,Armure de Mithril,Armadura de mithril,Mithril-Rüstung,Armatura di Mithril,Armadura de Mithril,ミスリルアーマー
+,,armor2_desc,,ลดความเสียหาย ดูมีสีสัน.,Protège bien et confère un look épique.,Reduce el daño. Queda espectacular.,Reduziert Schaden. Extravagantes Design.,Riduce i danni ed è decisamente sgargiante.,Reduz o dano. E é bem extravagante.,受けるダメージを減らす。派手さが売りだ。
+,,armor2_thanks,,ดูคำแนะนำในการซัก.,Pense à lire les instructions d'entretien.,Revisa las instrucciones de lavado.,Unbedingt die Pflegehinweise beachten.,Segui attentamente le istruzioni per il lavaggio.,Verifique as instruções de lavagem.,洗濯する時は色落ちに注意しな。
+,,sword3_name,,Shogun Blade,Lame de Shogun,Espada de shogun,Shogun-Klinge,Spada dello Shogun,Espada de Shogun,ショーグンブレード
+,,sword3_desc,,เชื่อถือได้ ผลิตในประเทศญี่ปุ่น.,Fiable. Fabriquée au Japon.,Fiable. Hecha en Japón.,Verlässlich. Angefertigt in Japan.,Affidabile. Made in Japan.,Confiável. Feita no Japão.,日本製だから、品質は保証付きだ。
+,,sword3_thanks,,คุณมีสายตาที่แยกแยะได้ดีเยี่ยม.,Je vois que tu t'y connais.,Veo que sabes del tema.,"Ich sehe, du bist ein Kenner.",Vedo che te ne intendi.,Vejo que você entende disso.,お前、なかなかの目利きだな。
+,,shield3_name,,Shogun Shield,Bouclier Shogun,Escudo de shogun,Shogun-Schild,Scudo dello Shogun,Escudo de Shogun,ショーグンシールド
+,,shield3_desc,,เชื่อถือได้ ผลิตในประเทศญี่ปุ่น.,Fiable. Fabriqué au Japon.,Fiable. Hecho en Japón.,Verlässlich. Angefertigt in Japan.,Affidabile. Made in Japan.,Confiável. Feito no Japão.,日本製だから、品質は保証付きだ。
+,,shield3_thanks,,คุณมีสายตาที่แยกแยะได้ดีเยี่ยม.,Je vois que tu t'y connais.,Veo que sabes del tema.,"Ich sehe, du bist ein Kenner.",Vedo che te ne intendi.,Vejo que você entende disso.,お前、なかなかの目利きだな。
+,,armor3_name,,Shogun Lamellar,Lamellaire Shogun,Lamelar de shogun,Shogun-Lamellenpanzer,Lamellare dello Shogun,Armadura de Shogun,ショーグンラメラー
+,,armor3_desc,,เชื่อถือได้ ผลิตในประเทศญี่ปุ่น.,Fiable. Fabriqué au Japon.,Fiable. Hecha en Japón.,Verlässlich. Angefertigt in Japan.,Affidabile. Made in Japan.,Confiável. Feita no Japão.,日本製だから、品質は保証付きだ。
+,,armor3_thanks,,ฉันเห็นว่าคุณมีความชำนาญ.,Je vois que tu t'y connais.,Veo que sabes del tema.,"Ich sehe, du bist ein Kenner.",Vedo che te ne intendi.,Vejo que você entende disso.,お前、なかなかの目利きだな。
+,,sword4_name,,Crystal Sword,Épée de Cristal,Espada de cristal,Kristall-Schwert,Spada di Cristallo,Espada de Cristal,クリスタルソード
+,,sword4_desc,,สร้างขึ้นจากทัวร์มาลีนสีแดงอันทันสมัย.,Taillée dans de la tourmaline rouge ! Trop classe !,"Fabricada con turmalina roja, muy de moda.",Aus modischem roten Turmalin.,Fatta di tormalina rossa. Molto alla moda.,Feita com a sofisticada turmalina vermelha.,ファッショナブルなレッド・トルマリン製だ。
+,,sword4_thanks,,Iฉันปล่อยมันไปเพื่ออะไร.,Je la vends vraiment pour une bouchée de pain !,Prácticamente la regalo.,Ich verkaufe es zu einem Spottpreis.,È un'occasionissima.,Está a preço de banana.,この値段は出血大サービスだぞ。
+,,shield4_name,,Crystal Shield,Bouclier en Cristal,Escudo de cristal,Kristall-Schild,Scudo di Cristallo,Escudo de Cristal,クリスタルシールド
+,,shield4_desc,,สร้างขึ้นจาก Red Jasper ที่สวยงาม.,Façonné à partir d'un fragment de jaspe rouge.,"Fabricado con jaspe rojo, con mucho estilo.",Aus schickem roten Jaspis.,Fatto in splendido diaspro rosso.,Feito do mais belo jaspe vermelho.,ファンシーなレッド・ジャスパー製だ。
+,,shield4_thanks,,ฉันควรจะเก็บเงินจากคุณมากกว่านี้.,J'aurais dû te faire payer plus.,Tendría que haberte cobrado más.,Ich hätte mehr dafür verlangen sollen.,Avrei dovuto fartelo pagare di più.,Eu deveria ter cobrado mais caro.,ホントはもっと高いんだがな。
+,,armor4_name,,Crystal Armor,Armure de Cristal,Armadura de cristal,Kristall-Rüstung,Armatura di Cristallo,Armadura de Cristal,クリスタルアーマー
+,,armor4_desc,,สร้างจากควอตซ์แทนเจอรีนอันหรูหรา.,Forgée à même un magnifique quartz mandarine.,"Fabricada con cuarzo naranja, muy elegante.",Aus elegantem Tangerinen-Quarz.,Fatta di elegante quarzo arancione.,Feita com o elegante quartzo laranja.,エレガントなタンジェリン・クォーツ製だ。
+,,armor4_thanks,,มันเป็นส่วนหนึ่งของคอลเลกชันส่วนตัวของฉัน.,Elle fait partie de ma collection personnelle.,Es parte de mi colección personal.,Ein Stück aus meiner Privatsammlung.,Fa parte della mia collezione personale.,Faz parte da minha coleção pessoal.,俺の個人的なコレクションの一部なんだぞ。
+,,sword5_name,,Gallic Sword,Épée Gauloise,Espada gálica,Gallisches Schwert,Spada Gallica,Espada Gaulesa,ガリックソード
+,,sword5_desc,,เป็นลาย เก็บไอเทมวิเศษเพิ่ม.,"Avec cette épée, des objets droppent tous azimuts !",A rayas. Conseguirás muchos objetos.,Gestreift. Deckt dich mit magischen Items ein.,A strisce. Fai il pieno di oggetti.,Inédita. Ganhe mais itens.,アイテム増量サービス付きだ。
+,,sword5_thanks,,รุ่นใหม่ล่าสุด!,Le modèle dernier cri !,¡El último modelo!,Das neueste Modell!,Ultimo modello!,O último modelo!,最新モデルだよ！
+,,shield5_name,,Knight Shield,Bouclier de Chevalier,Escudo de caballero,Ritter-Schild,Scudo del Cavaliere,Escudo de Cavaleiro,ナイトシールド
+,,shield5_desc,,เหมาะสำหรับสัตว์ที่มีขน.,Idéal pour les créatures à plume.,Apto para criaturas emplumadas.,Geeignet für gefiederte Kreaturen.,Perfetto per creature piumate.,Ideal para criaturas emplumadas.,羽毛の生えたお客さんにぴったりだ。
+,,shield5_thanks,,ไม่ใช่โล่ที่ทำให้อัศวิน.,Ce n'est pas le bouclier qui fait le chevalier.,El escudo no hace al caballero.,Nicht der Schild macht den Ritter.,Non è lo scudo che fa il cavaliere.,Não é o escudo que faz o cavaleiro.,その盾を持っても、騎士になれるわけじゃないぞ。
+,,armor5_name,,Goblin Mail,Armure de Gobelin,Malla de goblin,Kobold-Kettenpanzer,Maglia Goblin,Cota de Goblin,ゴブリンメイル
+,,armor5_desc,,"คอสเพลย์เป็นก็อบลิน.
+อย่าถามอะไรมาก.",Si ça te plaît de te déguiser en gobelin...,Vístete de goblin. No haré preguntas.,"Eigenwillige Gewandung, keine Frage.",Travestiti da goblin senza farti troppe domande.,Fantasie-se de goblin. Não precisa falar nada.,ゴブリンのコスプレしたがるヤツも、一人くらいは…
+,,armor5_thanks,,สำหรับของเขาหรือเธอ...,Chacun fait comme il veut...,Para gustos hay colores...,Für Damen und Herren geeignet ...,A ognuno il suo...,Cada um sabe bem o que faz...,物好きなヤツもいるもんだな...
+,,sword6_name,,Magical Saber,Sabre Magique,Sable mágico,Magischer Säbel,Sciabola Magica,Sabre Mágico,マジカルセイバー
+,,sword6_desc,,มีมนต์ขลังอย่างยิ่ง เปลี่ยนดวงดาวให้กลายเป็นหิน.,Carrément magique. Transforme les étoiles en cailloux.,Totalmente mágico. Convierte las estrellas en rocas.,Total magisch. Verwandelt Sterne in Steine.,Grandemente magica. Trasforma le stelle in pietre.,Absolutamente mágico. Transforma estrelas em pedra.,マジにマジカル。星を岩に変えられるんだ。
+,,shield6_name,,Dancing Shield,Bouclier Dansant,Escudo danzante,Tanzender Schild,Scudo Danzante,Escudo Dançante,ダンシングシールド
+,,shield6_desc,,เหมาะสำหรับนักกายกรรม.,Le top pour les rongeurs.,Muy apropiado para roedores.,Passt perfekt zu Nagern.,Ideale per i roditori.,Sob medida para roedores.,げっし類にはお似合いだ。
+,,shield6_thanks,,นักกายกรรมทุกขนาดรักมัน.,Les acrobates de toute taille en raffolent !,Gusta a acróbatas de todos los tamaños.,Akrobaten jeder Größe lieben ihn.,È perfetto per acrobati di qualsiasi taglia.,O favorito de qualquer acrobata.,軽業師たちに人気の品だぞ。
+,,armor6_name,,Samurai Armor,Armure Samurai,Armadura de samurái,Samurai-Rüstung,Armatura del Samurai,Armadura de Samurai,サムライアーマー
+,,armor6_desc,,แถบหนังเคลือบ เงางาม.,Finement ouvragée et ornée de bandes en cuir laqué !,Tiras de cuero lacadas. Brilla.,Lackierte Lederstreifen. Heiß.,Le strisce di cuoio lucido la rendono quasi abbagliante.,Tiras laqueadas de couro. Brilhante.,革にラッカーを塗ったのを重ねたものだ。イカスだろ。
+,,armor6_thanks,,เลือกได้ดี.,Un achat judicieux !,Una buena compra.,Ein guter Kauf.,Ottimo acquisto.,Uma bela aquisição.,いい買い物をしたな。
+,,sword7_name,,Lucky Sword,Épée Porte-Bonheur,Espada de la suerte,Glücksschwert,Spada Fortunata,Espada da Sorte,ラッキーソード
+,,sword7_desc,,ขอโชคดี.,Pour que la chance te sourie.,Da suerte.,Viel Glück.,Preparati ai colpi di fortuna.,Tenha sorte.,幸運をつかめるぜ。
+,,sword7_thanks,,ฉันไม่ควรขายเจ้านี่.,J'aurais jamais dû te la vendre !,No tendría que habértela vendido.,Das hätte ich dir nicht verkaufen sollen.,Non avrei dovuto vendertela.,Eu não deveria ter vendido essa.,うーん、売るのはもったいなかったかもな。
+,,shield7_name,,Aqua Shield,Bouclier Aquatique,Escudo de agua,Aqua-Schild,Scudo Acquatico,Escudo Aquático,アクアシールド
+,,shield7_desc,,ดูดีเมื่ออยู่ใต้น้ำ.,Pour avoir la classe sous l'eau.,Perfecto para presumir bajo el agua.,Auch unter Wasser der perfekte Look.,Ideale per avere un bel look anche sott'acqua.,Perfeito para nadar com estilo.,水中でカッコつけるのにピッタリだぞ。
+,,shield7_thanks,,ไม่เป็นสนิมเมื่อฝนตก.,"En plus, il rouille pas quand il pleut !",No se oxida con la lluvia.,Bei Regen rostet er nicht.,Non si arrugginisce sotto la pioggia.,Não enferruja com a chuva.,雨が降っても錆びないのが売りだ。
+,,armor7_name,,Dragon Mail,Armure de Dragon,Malla de dragón,Drachen-Kettenpanzer,Maglia di Drago,Cota Dracônica,ドラゴンメイル
+,,armor7_desc,,เป็นเกล็ดและป้องกันลาวา.,Écailleuse et résiste à la lave.,Escamosa e inmune a la lava.,Schuppig und immun gegen Lava.,È squamata e non teme la lava.,Escamosa e imune à lava.,このウロコは、溶岩でもびくともしないんだ。
+,,armor7_thanks,,มังกรสามารถเป็นเหยื่อของแฟชั่นได้.,Qui a dit que les dragons n'étaient pas des fashionistas ?,Los dragones también van a la moda.,Auch Drachen können Modeopfer sein.,A volte anche ai draghi piace essere alla moda.,Dragões também têm estilo.,これを造るため、罪もないドラゴンたちが犠牲に…
+,,sword8_name,,Muramasa Blade,Épée Muramasa,Espada de Muramasa,Muramasa-Klinge,Spada Muramasa,Lâmina Muramasa,ムラマサブレード
+,,sword8_desc,,ทำขึ้นในศตวรรษที่ 16.,Forgée au XVIe siècle.,Forjada en el siglo XVI.,Geschmiedet im 16. Jahrhundert.,Forgiata nel sedicesimo secolo.,Feita no século XVI.,16世紀に鍛えられた一振りだ。
+,,sword8_thanks,,สิ่งนี้เคยเป็นของคนที่มีชื่อเสียง.,Elle appartenait à quelqu'un de célèbre.,Perteneció a alguien famoso.,Das hat mal einer Berühmtheit gehört.,Apparteneva a qualcuno di famoso.,Esta pertenceu a alguém famoso.,どこかの有名人が持ち主だったらしいぞ。
+,,shield8_name,,Master Shield,Bouclier de Maître,Escudo de maestro,Meister-Schild,Scudo del Maestro,Escudo do Mestre,マスターシールド
+,,shield8_desc,,ขอบขนยาวและนุ่ม.,"Extrémités poilues. Oh, on s'y fait rapidement.",Con bordes peludos. Es un gusto adquirido.,"Pelzverbrämt, von erlesenem Geschmack.",Bordi pelosi... Ci farai l'abitudine.,Peludo nas pontas. Um gosto adquirido.,毛皮仕上げ。だんだん愛着がわいてくる品だぞ。
+,,shield8_thanks,,มีแปรงแยกขาย.,La brosse est vendue séparément.,El cepillo se vende por separado.,Der Pinsel kann extra gekauft werden.,La spazzola viene venduta separatamente.,Escova não inclusa.,ブラシは別売りだからな。
+,,armor8_name,,Prince Armor,Armure Princière,Armadura de príncipe,Prinzen-Rüstung,Armatura del Principe,Armadura do Príncipe,プリンスアーマー
+,,armor8_desc,,โดนใจและความคิด.,Fait palpiter les coeurs et met en émoi.,Captura los corazones y los pensamientos.,Lässt dir die Herzen zufliegen.,Cattura cuori e pensieri.,Captura corações e pensamentos.,一目で心を奪われるだろう？
+,,armor8_thanks,,ความรักทำให้คุณมีชีวิตที่ยืนยาวขึ้น.,L'amour fait jaillir la vie.,El amor alarga la vida.,Liebe macht langlebig.,L'amore ti fa vivere più a lungo.,O amor faz você viver mais tempo.,愛の力で長生きできるぞ。
+,,sword9_name,,Tasmanian Sword,Épée de Tasmanie,Espada de Tasmania,Tasmanisches Schwert,Spada della Tasmania,Espada da Tasmânia,タスマニアンソード
+,,sword9_desc,,มีวิญญาณสัตว์อยู่ในครอบครอง.,Permet d'invoquer l'esprit des animaux.,Poseída por espíritus animales.,Von Tiergeistern besessen.,Posseduta da spiriti animaleschi.,Possuída por espíritos selvagens.,動物の霊が取り憑いてるぞ。
+,,sword9_thanks,,คุณเป็นลูกค้าคนแรกของฉัน.,Tu es mon tout premier client.,Eres mi primer cliente.,Du bist mein erster Kunde.,Sei il primo cliente.,Você é meu primeiro cliente.,ここに来たお客はお前が初めてだ。
+,,shield9_name,,Heavenly Shield,Bouclier Céleste,Escudo celestial,Himmlischer Schild,Scudo Celeste,Escudo Celestial,ヘブンリーシールド
+,,shield9_desc,,"น้ำหนักเบาทำจากเมฆ.","Poids plume, certifié 100 % en volute de nuages","Ligero, hecho de jirones de nube.",Ein Leichtgewicht aus Wolkenzwirn.,Leggerissimo: fatto di fibra di nuvole.,"Levíssimo, feito com fios de nuvem.",雲を織って作られた、超軽量の盾だ。
+,,shield9_thanks,,ฉันรู้ว่าฉันจะขายมันในที่สุด.,Je savais que je finirais par le vendre.,Sabía que algún día lo vendería.,"Ich wusste, ich würde ihn verkaufen.",Sapevo che prima o poi l'avrei venduto.,Sabia que um dia eu venderia.,いつかは売れると信じてたぞ。
+,,armor9_name,,Hades Armor,Armure d'Hadès,Armadura de Hades,Hades-Rüstung,Armatura dell'Ade,Armadura de Hades,ハーデスアーマー
+,,armor9_desc,,การออกแบบโบราณ สำหรับปุถุชนเท่านั้น.,Design qui fait rage aux 4 coins des Enfers. Réservée aux mortels.,Antiguo diseño del inframundo. Solo para mortales.,Altes Unterwelt-Design. Nur für Sterbliche.,Un antico modello dell'aldilà. Solo per mortali.,Uma criação do antigo submundo. Apenas para mortais.,古代の冥界のデザイン。定命の者専用だ。
+,,armor9_desc2,,"หนักและทำจากวิญญาณอมตะ.","Poids lourd, un concentré d'âmes immortelles.","Pesada, hecha de almas inmortales.",Ein Schwergewicht aus unsterblichen Seelen.,È pesante perché è fatta di anime immortali.,"Pesado, feito com almas imortais.",重量級で、不滅の魂を織って作られたものだ。
+,,armor9_thanks,,"ขอให้มีชีวิตยืนยาวนะเพื่อน!","Puisse ta vie être longue, mon ami !",¡Que tengas una larga vida!,Ich wünsche dir ein langes Leben!,Ti auguro una lunga vita!,"Tenha uma longa vida, amizade!",長生きしろよ、相棒！
+,,ring0_name,,Thunder Ring,Anneau du tonnerre,Anillo de trueno,Donner-Ring,Anello del Fulmine,Anel do Trovão,サンダーリング
+,,ring0_desc,,เงางาม ทำลายบล็อกพิเศษ.,Brille de mille feux et brise les blocs spéciaux.,Brilla. Rompe bloques especiales.,Schick. Kann Spezial-Blöcke durchbrechen.,Brillantissimo. Rompe i blocchi speciali.,Brilhante. Quebra blocos especiais.,キラキラ。特別なブロックを壊せる。
+,,item30_name,,Fireball,Boule de feu,Bola de fuego,Feuerball,Sfera di Fuoco,Bola de fogo,ファイアボール
+,,item30_desc_inventory,,เล็งไปข้างหน้า.,Tire droit devant.,Apunta hacia delante.,Ziele geradeaus.,Mira in avanti.,Mire para frente.,前方に向けて発射。
+,,item31_name,,Tornado,Tornade,Tornado,Tornado,Tromba d'aria,Tornado,トルネード
+,,item31_desc_inventory,,เล็งไปที่พื้น.,Vise le sol.,Apunta hacia el suelo.,Ziele auf den Boden.,Mira in basso.,Mire no solo.,地面に向けて発射。
+,,item31_desc_inventory2,,พายุหมุนบนพื้นดิน.,Un tourbillon rase-mottes,Un torbellino con base en tierra.,Ein erdbasierter Wirbelwind.,Un tornado che tocca il terreno.,Um redemoinho terrestre.,地面の上を竜巻が走っていく。
+,,item32_name,,Arrow,Flèche,Flecha,Pfeil,Freccia,Flecha,アロウ
+,,item32_desc_inventory,,ยิงขึ้นไป.,Tire vers le haut.,Se dispara hacia arriba.,Ziele nach oben.,Vola verso l'alto.,É disparada para cima.,上に向けて発射。
+,,item33_name,,Boomerang,Boomerang,Bumerán,Bumerang,Boomerang,Bumerangue,ブーメラン
+,,item33_desc_inventory,,ของเล่นสุดคลาสสิกกำลังจะกลับมาอีกครั้ง.,Ce jouet classique fait son comeback.,El juguete clásico ha vuelto.,Comeback eines Spielzeug-Klassikers.,Un gradito ritorno per uno strumento antico.,A volta do clássico brinquedo.,投げると戻って来る、クラシックなおもちゃ。
+,,item33_desc_shop,,ซื้อแล้วคุณจะกลับมาอีก.,Achètes-en un et tu deviendras accro.,Compra uno y vendrás a por más.,Kaufe einen und du wirst immer wiederkommen.,"Se ne compri uno, tornerai indietro ad acquistarne altri.",Você vai voltar querendo mais.,一度買うと、何度も買いに戻って来ることに。
+,,item34_name,,Thunder,Éclair,Trueno,Donner,Fulmine,Trovão,サンダー
+,,item34_desc_inventory,,โจมตีมอนสเตอร์ที่อยู่ใกล้ทั้งหมด.,Foudroie tous les monstres alentour.,Golpea a todos los monstruos cercanos.,Trifft alle Monster in der Nähe.,Colpisce tutti i mostri nelle vicinanze.,Fulmine todos os monstros próximos.,近くのモンスター全てを攻撃。
+,,item40_name,,Stone,Pierre,Piedra,Stein,Pietra,Pedra,ストーン
+,,item40_name_long,,Charm Stone,Pierre de charme,Piedra talismán,Charme-Stein,Pietra Incantata,Pedra Encantada,チャームストーン
+,,item40_desc_inventory,,สร้างความประทับใจให้เจ้าของร้านค้า.,Impressionne les marchands bassement matérialistes.,Impresiona a los tenderos materialistas.,Beeindrucke materialistische Ladenbesitzer.,Fa colpo sui negozianti più materialisti.,Impressione vendedores materialistas.,欲張りな店主を感心させる。
+,,item41_name,,Key,Clé,Llave,Schlüssel,Chiave,Chave,カギ
+,,item41_desc_inventory,,ไว้เปิดประตู.,Ouvre des portes.,Para abrir puertas.,Öffne Türen.,Apre le porte.,Abre portas.,ドアを開ける。
+,,item41_desc_shop,,"กุญแจเหล่านี้มีคุณภาพดีที่สุด.
+ฉันสร้างมันขึ้นมาเอง.","Ces clés sont d'une qualité exceptionnelle.
+C'est moi qui les fabrique !","Estas llaves son de la mejor calidad.
+Las hago yo mismo.","Diese Schlüssel sind von guter Qualität.
+Ich stelle sie selbst her.","Queste chiavi sono di qualità eccezionale.
+Le faccio io.","Chaves da melhor qualidade.
+Eu mesmo as fiz.","カギはどれも最高品質だよ。
+私が作ったものだからね。"
+,,item41_thanks,,"ทางเลือกที่ดีและดูเหมือนของจริง!","Excellent choix, on dirait vraiment une vraie !","Buena elección, ¡y parece de verdad!","Gute Wahl, sieht täuschend echt aus!","Ottima scelta: sembra quasi originale, eh?","Boa escolha, e parece de verdade mesmo!",お目が高いね、本物そっくりだろう！
+,,item42_name,,Potion,Potion,Poción,Trank,Pozione,Poção,復活の薬
+,,item42_desc_inventory,,เพิ่มเลือด.,Régénère la santé.,Restaura la salud.,Stellt Gesundheit wieder her.,Ti fa recuperare vita.,Recupera vida.,体力を回復する。
+,,item43_name,,Heart Container,Conteneur de coeurs,Contenedor de corazón,Herz-Behälter,Contenitore di Cuori,Recipiente de Coração,ハートの器
+,,item44_name,,Large Heart,Grand coeur,Corazón grande,Großes Herz,Cuore Grande,Coração Grande,大ハート
+,,item45_name,,Small Heart,Petit coeur,Corazón pequeño,Kleines Herz,Cuore Piccolo,Coração Pequeno,小ハート
+,,item46_name,,Question Mark,Point d'interrogation,Signo de interrogación,Fragezeichen,Punto interrogativo,Interrogação,？マーク
+,,retro_inventory_sword0,,"LEGENDARY
+SWORD",,,,,,"レジェンド
+ソード"
+,,retro_inventory_sword1,,"IVORY
+SWORD",アイボリーソード,,,,,"アイボリー
+ソード"
+,,retro_inventory_sword2,,"MITHRIL
+SWORD",,,,,,"ミスリル
+ソード"
+,,retro_inventory_sword3,,"SHOGUN
+BLADE",,,,,,"ショーグン
+ブレード"
+,,retro_inventory_sword4,,"CRYSTAL
+SWORD",,,,,,"クリスタル
+ソード"
+,,retro_inventory_sword5,,"GALLIC
+SWORD",,,,,,"ガリック
+ソード"
+,,retro_inventory_sword6,,"MAGICAL
+SABER",,,,,,"マジカル
+セイバー"
+,,retro_inventory_sword7,,"LUCKY
+SWORD",,,,,,"ラッキー
+ソード"
+,,retro_inventory_sword8,,"MURAMASA
+BLADE",,,,,,"ムラマサ
+ブレード"
+,,retro_inventory_sword9,,"TASMANIAN
+SWORD",,,,,,"タスマニアン
+ソード"
+,,retro_inventory_shield0,,"LEGENDARY
+SHIELD",,,,,,"レジェンド
+シールド"
+,,retro_inventory_shield1,,"IVORY
+SHIELD",,,,,,"アイボリー
+シールド"
+,,retro_inventory_shield2,,"MITHRIL
+SHIELD",,,,,,"ミスリル
+シールド"
+,,retro_inventory_shield3,,"SHOGUN
+SHIELD",,,,,,"ショーグン
+シールド"
+,,retro_inventory_shield4,,"CRYSTAL
+SHIELD",,,,,,"クリスタル
+シールド"
+,,retro_inventory_shield5,,"KNIGHT
+SHIELD",,,,,,"ナイト
+シールド"
+,,retro_inventory_shield6,,"DANCING
+SHIELD",,,,,,"ダンシング
+シールド"
+,,retro_inventory_shield7,,"AQUA
+SHIELD",,,,,,"アクア
+シールド"
+,,retro_inventory_shield8,,"MASTER
+SHIELD",,,,,,"マスター
+シールド"
+,,retro_inventory_shield9,,"HEAVENLY
+SHIELD",,,,,,"ヘブンリー
+シールド"
+,,retro_inventory_armor0,,"LEGENDARY
+ARMOR",,,,,,"レジェンド
+アーマー"
+,,retro_inventory_armor1,,"IVORY
+ARMOR",,,,,,"アイボリー
+アーマー"
+,,retro_inventory_armor2,,"MITHRIL
+ARMOR",,,,,,"ミスリル
+アーマー"
+,,retro_inventory_armor3,,"SHOGUN
+LAMELLAR",,,,,,"ショーグン
+ラメラー"
+,,retro_inventory_armor4,,"CRYSTAL
+ARMOR",,,,,,"クリスタル
+アーマー"
+,,retro_inventory_armor5,,"GOBLIN
+MAIL",,,,,,"ゴブリン
+メイル"
+,,retro_inventory_armor6,,"SAMURAI
+ARMOR",,,,,,"サムライ
+アーマー"
+,,retro_inventory_armor7,,"DRAGON
+MAIL",,,,,,"ドラゴン
+メイル"
+,,retro_inventory_armor8,,"PRINCE
+ARMOR",,,,,,"プリンス
+アーマー"
+,,retro_inventory_armor9,,"HADES
+ARMOR",,,,,,"ハーデス
+アーマー"
+,,retro_inventory_ring0,,RING,,,,,,リング
+,,retro_inventory_item30,,FIREBALL,,,,,,ファイアボール
+,,retro_inventory_item31,,TORNADO,,,,,,トルネード
+,,retro_inventory_item32,,ARROW,,,,,,アロウ
+,,retro_inventory_item33,,BOOMERANG,,,,,,ブーメラン
+,,retro_inventory_item34,,THUNDER,,,,,,サンダー
+,,retro_inventory_item40,,STONE,,,,,,ストーン
+,,retro_inventory_item41,,KEY,,,,,,カギ
+,,inventory_select_prompt,,เลือก,Choisir,Seleccionar,Auswählen,Seleziona,Selec.,選ぶ
+,,inventory_close_prompt,,ปิด,Fermer,Cerrar,Schließen,Chiudi,Fechar,閉じる
+,,inventory_equip_prompt,,อุปกรณ์,Équiper,Equipar,Ausrüsten,Equipaggia,Equipar,装備
+,,inventory_unknown_desc,,???,???,???,???,???,???,？？？
+,,inventory_cat_items_title,,ไอเทม,OBJETS,OBJETOS,ITEMS,OGGETTI,ITENS,アイテム
+,,inventory_cat_items_desc,,ไอเทมสิ้นเปลืองและสินค้าพิเศษ.,Objets consommables et standard.,Objetos consumibles y especiales.,Verbrauchsitems/Spezial-Items.,Oggetti consumabili e oggetti speciali.,Itens consumíveis e especiais.,消耗品と特殊アイテム。
+,,inventory_cat_swords_title,,ดาบ,ÉPÉES,ESPADAS,SCHWERTER,SPADE,ESPADAS,剣
+,,inventory_cat_swords_desc,,ดาบจะเพิ่ม [b]การโจมตี [/b] ของคุณ.,Les épées boostent tes points d'[b]attaque[/b].,Las espadas aumentan tus puntos de [b]ataque[/b].,Schwerter erhöhen deine [b]Angriff[/b]-Punkte.,Le spade aumentano i tuoi punti [b]attacco[/b].,Espadas aumentam seus pontos de [b]ataque[/b].,剣は[b]アタック[/b]ポイントを増やす。
+,,inventory_cat_swords_desc_lizard,,ดาบจะเพิ่ม [b]พลังโจมตี [/b] ของคุณ.,Les épées boostent les points d'[b]attaque[/b] de ton feu reptilien.,Las espadas aumentan los puntos de [b]ataque[/b] de tu fuego de lagarto.,Schwerter erhöhen deine Echsenfeuer-[b]Angriff[/b]-Punkte.,Le spade aumentano i punti [b]attacco[/b] del fuoco di lucertola.,Espadas aumentam os pontos de [b]ataque[/b] do seu fogo de lagarto.,剣はリザードの炎の[b]アタック[/b]ポイントを増やす。
+,,inventory_cat_shields_title,,โล่,BOUCLIERS,ESCUDOS,SCHILDE,SCUDI,ESCUDOS,盾
+,,inventory_cat_shields_desc,,โล่จะเพิ่ม [b] การป้องกัน [/b] ของคุณ.,Les boucliers boostent tes points de [b]défense[/b].,Los escudos aumentan tus puntos de [b]defensa[/b].,Schilde erhöhen deine [b]Abwehr[/b]-Punkte.,Gli scudi aumentano i tuoi punti [b]difesa[/b].,Escudos aumentam seus pontos de [b]defesa[/b].,盾は[b]ディフェンス[/b]ポイントを増やす。
+,,inventory_cat_shields_desc_lizard,,โล่จะเพิ่ม [b] พลังป้องกัน [/b] ของคุณ.,Les boucliers boostent les points de [b]défense[/b] de tes écailles reptiliennes.,Los escudos aumentan los puntos de [b]defensa[/b] de tus escamas de lagarto.,Schilde erhöhen deine Echsenschuppen-[b]Abwehr[/b]-Punkte.,Gli scudi aumentano i punti [b]difesa[/b] delle squame di lucertola.,Escudos aumentam os pontos de [b]defesa[/b] da sua escama de lagarto.,盾はトカゲのウロコの[b]ディフェンス[/b]ポイントを増やす。
+,,inventory_cat_armors_title,,ชุดเกราะ,ARMURES,ARMADURA,RÜSTUNG,ARMATURE,ARMADURAS,鎧
+,,inventory_cat_armors_desc,,ชุดเกราะจะเพิ่ม [b] การป้องกัน [/b] ของคุณ.,Les armures boostent tes points de [b]défense[/b].,La armadura aumenta tus puntos de [b]defensa[/b].,Rüstungen erhöhen deine [b]Abwehr[/b]-Punkte.,Le armature aumentano i tuoi punti [b]difesa[/b].,Armaduras aumentam seus pontos de [b]defesa[/b].,鎧は[b]ディフェンス[/b]ポイントを増やす。
+,,inventory_cat_armors_desc_lizard,,ชุดเกราะจะเพิ่ม [b] พลังป้องกัน [/b] ของคุณ.,Les armures boostent les points de [b]défense[/b] de tes écailles reptiliennes.,La armadura aumenta los puntos de [b]defensa[/b] de tus escamas de lagarto.,Rüstungen erhöhen deine Echsenschuppen-[b]Abwehr[/b]-Punkte.,Le armature aumentano i punti [b]difesa[/b] delle squame di lucertola.,Armaduras aumentam os pontos de [b]defesa[/b] da sua escama de lagarto.,鎧はトカゲのウロコの[b]ディフェンス[/b]ポイントを増やす。
+,,inventory_details_ap,,โจมตี,attaque,ataque,angriff,attacco,ataque,アタック
+,,inventory_details_dp,,ป้องกัน,défense,defensa,abwehr,difesa,defesa,ディフェンス
+,,inventory_details_special,,พิเศษ,spécial,especial,spezial,speciale,especial,スペシャル
+,,intro_text_01,,Before you is the [b]มอนสเตอร์แลน [/b].,À l'orée de [b]มอนสเตอร์แลน[/b]...,"Ante ti se extiende
+[b]มอนสเตอร์แลน[/b].",Vor dir liegt [b]มอนสเตอร์แลน[/b].,Davanti a te c'è [b]มอนสเตอร์แลน[/b].,Diante de você está a [b]มอนสเตอร์แลน[/b].,ここは　[b]モンスターワールド[/b]。
+,,intro_text_02,,"Overcoming various
+hardships, you have
+at last entered 
+the [b]Monster's castle[/b].","Après avoir surmonté
+moult obstacles,
+tu pénètres dans 
+le [b]château du Monstre[/b].","Superando diversas
+dificultades, por fin
+has logrado entrar en
+el [b]Castillo del Monstruo[/b].","Nach vielen
+Prüfungen hast du
+endlich das 
+[b]Monster-Schloss[/b] erreicht.","Dopo molte
+peripezie, hai
+finalmente raggiunto 
+il [b]Castello del Mostro[/b].","Após enfrentar
+muitos desafios,
+por fim você entrou 
+no [b]Castelo do Monstro[/b].","いま　きみは　かずかずの
+こんなんにも　まけず
+ついに　[b]さいごのもくてきち[/b]に
+たどりついた。"
+,,intro_text_03,,"Your target is
+the dreaded
+[b]dragon's[/b] room.","Ta destination :
+la chambre du
+redoutable [b]dragon[/b].","Tu meta es
+la temida
+sala del [b]dragón[/b].","Dein Ziel: Der
+Raum des
+gefürchteten [b]Drachen[/b].","Il tuo obiettivo è
+la temuta
+sala del [b]drago[/b].","Seu destino é
+a temível
+sala do [b]dragão[/b].","めざすは
+あのおそろしい[b]ドラゴン[/b]
+のいるへやだ。"
+,,intro_text_04,,"[b]But[/b]
+unbeknownst
+to you is
+the fact that","[b]Mais[/b]
+tu es
+à mille lieues
+de te douter","[b]Pero[/b]
+lo que
+no sabes
+es que","[b]Aber[/b]
+es ist dir
+nicht bewusst,
+dass der Drache","[b]Ma[/b]
+c'è una cosa
+che ancora
+non sai.","[b]Mas[/b],
+mal sabe
+você que,
+na verdade,","[b]しかし[/b]きみは
+しらなかったのだ。
+"
+,,intro_text_05,,"the dragon has
+the power to
+cast [b]curses[/b]
+on his enemies.","que le dragon
+est capable
+d'[b]ensorceler[/b]
+ses ennemis.","el dragón tiene
+el poder de
+lanzar [b]maldiciones[/b]
+a sus enemigos.","die Macht hat,
+seine Feinde
+mit [b]Flüchen[/b]
+zu belegen.
+","il drago
+ha il potere di
+lanciare [b]maledizioni[/b]
+sui suoi nemici.","o dragão tem
+o poder de
+lançar [b]maldições[/b]
+nos inimigos.","ドラゴンには
+おそろしい[b]のろい[/b]が
+あるということを…"
+,,retro_intro_text_en_01,,"
+
+                 BEFORE
+        YOU IS THE [b]MONSTER WORLD[/b].",,,,,,
+,,retro_intro_text_en_02,,"      OVERCOMING VARIOUS HARDSHIPS,
+        YOU HAVE AT LAST ENTERED
+       INTO THE [b]MONSTER'S CASTLE[/b].
+
+             YOUR TARGET IS
+        THE DREADED [b]DRAGON'S[/b] ROOM.",,,,,,
+,,retro_intro_text_en_03,,"
+                   [b]BUT[/b]
+          UNBEKNOWNST TO YOU IS
+      THE FACT THAT THE [b]DRAGON[/b] HAS
+       THE POWER TO INVOKE CURSES
+             ON HIS ENEMIES.",,,,,,
+,,retro_intro_text_jp_01,,ここは　モンスターワールド。,,,,,,
+,,retro_intro_text_jp_02,,"　　　　　いま　きみは
+かずかずの　こんなんにも　まけず
+　ついに　さいごのもくてきちに
+　　　　　たどりついた。",,,,,,
+,,retro_intro_text_jp_03,,"　　　　　　　めざすは
+あのおそろしいドラゴンのいるへやだ。",,,,,,
+,,retro_intro_text_jp_04,,"　　　　　しかし
+きみは　しらなかったのだ。",,,,,,
+,,retro_intro_text_jp_05,,"　　　ドラゴンには
+おそろしいのろいがあると
+　　　いうことを・・・・",,,,,,
+,,opening_text_00,,และตอนนี้...,À présent...,Y ahora...,Und nun ...,E ora...,E agora...,そして　いま
+,,opening_text_01,,จัดการกับภารกิจผจญภัยของคุณ...,Poursuis ton aventure épique...,Continúa con tu aventura...,fahre fort mit deinen Abenteuern ...,Prosegui il cammino della tua avventura...,Prossiga em sua ousada missão...,あらたなる　ぼうけんが　はじまろうとしている。
+,,retro_opening_text_en_01,,และตอนนี้,,,,,,
+,,retro_opening_text_en_02,,"จัดการกับภารกิจ
+ผจญภัยของคุณ...",,,,,,
+,,retro_opening_text_en_03,,WONDER BOY Ⅲ,,,,,,
+,,retro_opening_text_en_04,,THE DRAGON'S TRAP,,,,,,
+,,retro_opening_text_jp_01,,そして　いま,,,,,,
+,,retro_opening_text_jp_02,,"あらたなる　ぼうけんが
+はじまろうとしている。",,,,,,
+,,retro_opening_text_jp_03,,"「サラマンダークロス」を
+てにいれるために・・・・",,,,,,
+,,retro_opening_text_jp_04,,"モンスターワールドⅡ
+ドラゴンのわな",,,,,,
+,,location_intro_000,,ดันเจี้ยนสุดท้าย,L'ultime donjon,La última mazmorra,Das Letzte Verlies,L'Ultimo Dungeon,A Última Masmorra,ラストダンジョン
+,,location_intro_010,,หมู่บ้าน,Le village,La aldea,Das Dorf,Il Villaggio,O Vilarejo,村
+,,location_intro_022,,ชายหาด,La plage,La playa,Der Strand,La Spiaggia,A Praia,ビーチ
+,,location_intro_034,,ทะเลทราย,Le désert,El desierto,Die Wüste,Il Deserto,O Deserto,砂漠
+,,location_intro_053,,หุบเขา,Le canyon,El cañón,Die Schlucht,Il Canyon,O Desfiladeiro,火山地帯
+,,location_intro_067,,ป่า,La jungle,La jungla,Der Dschungel,La Giungla,A Selva,ジャングル
+,,location_intro_080,,ใต้ดิน,Le souterrain,El subterráneo,Der Untergrund,I Sotterranei,O Subterrâneo,地底
+,,location_intro_093,,ปราสาทเก่า,Le vieux château,El antiguo castillo,Das Alte Schloss,Il Vecchio Castello,O Antigo Castelo,古城
+,,location_intro_101,,ห้องโถงพีระมิด,La pyramide,La sala de la pirámide,Die Pyramidenhalle,La Sala della Piramide,O Salão da Pirâmide,ピラミッドホール
+,,location_intro_108,,เดอะทาวเวอร์,La tour,La torre,Der Turm,La Torre,A Torre,タワー
+,,location_intro_119,,เรืออับปาง,L'épave,El naufragio,Das Schiffswrack,Il Relitto,O Naufrágio,難破船
+,,location_intro_128,,วัดไดเมียว,Le temple du daimyo,El templo del Daimio,Der Daimyo-Tempel,Il Tempio Daimyo,O Templo de Daimyo,ダイミョー寺
+,,location_intro_091,,พระราชวังลอยฟ้า,Le palais céleste,El palacio del cielo,Der Himmelspalast,Il Palazzo Celeste,O Palácio Celeste,空の宮殿
+,,location_intro_xx,,ไม่รู้จัก,L'inconnu,Lo desconocido,Das Unbekannte,L'Ignoto,O Desconhecido,未知
+,,location_intro_xx2,,พื้นที่ที่ไม่รู้จัก,Le lieu inconnu,El área desconocida,Das Unbekannte Gebiet,La Zona Ignota,A Área Desconhecida,未知のエリア
+,,gameover_continue_prompt,,ดำเนินการต่อ,Continuer,Continuar,Fortfahren,Continua,Continuar,コンティニュー
+,,gameover_hint_boss,,คำแนะนำ: มังกรจะต้องถูกตีที่หัว.,Astuce : Tout dragon a un point faible : sa tête !,Pista: hay que golpear a los dragones en la cabeza.,Tipp: Drachen müssen am Kopf getroffen werden.,Suggerimento: i draghi vanno colpiti sulla testa.,Dica: Atinja os dragões na cabeça.,ヒント：ドラゴンは頭を狙おう。
+,,gameover_hint_boss_6,,คำแนะนำ: มังกรจะต้องถูกตีที่หัว หรืออาจจะเป็นหัวอื่น ๆ.,Astuce : Tout dragon a un point faible : sa tête (ou son autre tête) !,Pista: hay que golpear a los dragones en la cabeza. O quizás en la otra cabeza.,Tipp: Drachen müssen am Kopf getroffen werden. An einem davon jedenfalls.,Suggerimento: i draghi vanno colpiti sulla testa. O forse sull'altra testa.,Dica: Atinja os dragões na cabeça. Ou talvez na outra cabeça.,ヒント：ドラゴンは頭を狙おう。あるいは、別の頭を。
+,,gameover_hint_early_key_restart,,"คำแนะนำ: คุณจะไม่สูญเสียอุปกรณ์ อาวุธ และกุญแจของคุณเมื่อคุณเริ่มเกมใหม่.","Astuce : Tu conserves ton équipement, tes épées et tes clés lorsque tu relances le jeu.","Pista: no perderás tu equipamiento, armas ni llaves cuando reinicies el juego.","Tipp: Bei Neustart verlierst du keine Ausrüstung, Waffen oder Schlüssel.","Suggerimento: quando ricominci la partita, armi, chiavi ed equipaggiamento non vanno persi.","Dica: Você não perde seus equipamentos, armas e chaves quando reinicia o jogo.",ヒント：ゲームをやり直した場合、装備、武器、カギは無くならない。
+,,gameover_hint_early_equipment,,คำแนะนำ: นักผจญภัย! อย่าลืม [b] ซื้ออุปกรณ์ที่เหมาะสม [/b] ที่ร้าน.,Astuce : Fais un saut à l'échoppe pour y [b]acheter un équipement digne de ce nom[/b].,Pista: no te olvides de [b]comprar equipamiento adecuado[/b] en la tienda.,Tipp: Abenteurer! Decke dich im Laden mit [b]angemessener Ausrüstung[/b] ein.,Suggerimento: ricorda di [b]acquistare l'equipaggiamento adatto[/b] nel negozio.,Dica: Aventureiro! Não deixe de comprar [b]equipamentos adequados[/b] na loja.,ヒント：冒険者よ！　ショップで[b]適切な装備を買う[/b]のをお忘れなく。
+,,gameover_hint_pig,,Hint: คำแนะนำ: สับสน? [b] ไปเยี่ยมเพื่อนหมูของคุณ [/b] ที่โบสถ์เพื่อขอคำแนะนำ.,Astuce : Perdu ? Rends-toi à l'église et [b]demande conseil à ton ami le cochon[/b].,Pista: ¿Te has perdido? [b]Visita a tu amigo porcino[/b] en la iglesia para que te oriente.,"Tipp: Verwirrt? [b]Besuche deinen Schweinefreund[/b] in der Kirche, um dir Rat zu holen.","Suggerimento: se ti serve aiuto, [b]fai visita al tuo amico suino[/b] nella chiesa.",Dica: Está confuso? [b]Visite seu amigo porco[/b] na igreja para obter ajuda.,ヒント：迷った時は、教会の[b]ブタ[/b]にアドバイスを聞きに行こう。
+,,game_help_open_door,,เปิด,OUVRIR,ABRIR,ÖFFNEN,APRI,ABRIR,開く
+,,game_help_rotate,,หมุน,TOURNER,GIRAR,DREHEN,RUOTA,GIRAR,回転
+,,tutorial_jump_prompt,,กระโดด,Sauter,Saltar,Springen,Salta,Saltar,ジャンプ
+,,tutorial_attack_prompt,,โจมตี,Attaquer,Atacar,Angreifen,Attacca,Ataque,アタック
+,,game_hint_boss_meka,,คำแนะนำ: มังกรจะต้องถูกตีที่หัว.,Astuce : Tout dragon a un point faible : sa tête !,Pista: Hay que golpear a los dragones en la cabeza.,Tipp: Drachen müssen am Kopf getroffen werden.,Suggerimento: i draghi vanno colpiti sulla testa.,Dica: Atinja os dragões na cabeça.,ヒント：ドラゴンは頭を狙おう。
+,,game_hint_mouse_grip,,คำแนะนำ: กด [b] ทิศทาง [/ b] ของผนังตาหมากรุกเพื่อ [b] ไต่ [/ b] เข้ากับมัน.,Astuce : Appuie dans la [b]direction[/b] d'un mur à carreaux pour t'y [b]accrocher[/b].,Pista: Pulsa en la [b]dirección[/b] de una pared a cuadros para [b]agarrarte[/b] a ella.,"Tipp: Drücke in [b]Richtung [/b] einer Karomauer, um dich dort [b]festzuhalten[/b].",Suggerimento: premi in [b]direzione[/b] di un muro a scacchi per [b]aggrapparti[/b].,Dica: Pressione na [b]direção[/b] de uma parede quadriculada para [b]se pendurar[/b] nela.,ヒント：マス模様の壁に[b]つかまる[/b]には、その壁の[b]方向[/b]を押そう。
+,,shop_move_prompt,,เลือก,Choisir,Seleccionar,Auswählen,Seleziona,Selec.,選ぶ
+,,shop_buy_prompt,,ซื้อ,Acheter,Comprar,Kaufen,Acquista,Comprar,買う
+,,shop_unknown_desc,,???,???,???,???,???,???,？？？
+,,shop_sold_out_desc,,ขายหมดแล้ว,Épuisé,Agotado,Ausverkauft,Esaurito,Vendido,売り切れ
+,,shop_exit_desc,,ออก,Sortir,Salir,Verlassen,Esci,Sair,出る
+,,shop_exit_prompt,,ออก,Sortir,Salir,Verlassen,Esci,Sair,出る
+,,shop_inventory_prompt,,ช่องเก็บของ,Inventaire,Inventario,Inventar,Inventario,Inventário,もちもの
+,,shop_password_prompt,,รหัส Retro,Mot de passe rétro,Contraseña retro,Retro-Passwort,Password retro,Senha retrô,レトロ　パスワード
+,,hospital_cure_desc,,รักษา,Soigner,Curar,Heilen,Cura,Cura,治療
+,,hospital_buy_prompt,,ซื้อ,Acheter,Comprar,Kaufen,Acquista,Comprar,買う
+,,hospital_cost_free,,ฟรี,Gratuit,Gratis,Gratis,Gratis,Grátis,無料
+,,pig_shop_thanks_fallback_00,,ขอบคุณสำหรับการซื้อ!,"Merci bien, l'ami !",¡Gracias por tu compra!,Danke für deinen Einkauf!,Grazie per l'acquisto!,Obrigado pela sua compra!,毎度あり！
+,,pig_shop_idle_00,,ฉันไม่มีเวลาทั้งวัน.,"Hé, j'ai pas toute la journée.",No tengo todo el día.,Ich hab nicht den ganzen Tag Zeit.,Non ho tutto il giorno.,Não tenho o dia todo.,俺もヒマじゃないんだがな。
+,,pig_shop_idle_01,,คุณกำลังจะซื้ออะไร?,T'achètes quelque chose ou pas ?,¿Vas a comprar algo?,Willst du auch etwas kaufen?,Hai intenzione di comprare qualcosa?,Vai comprar algo ou não?,何か買おうって気はあるのか？
+,,pig_shop_idle_soldout_00,,"คุณกำลังจะซื้ออะไร? ไม่เหรอ? ก็ดีฉันไม่มีอะไรจะขายให้อยู่แล้ว.","Tu veux acheter quelque chose ? Non ? Ça tombe bien, j'ai rien à vendre.","¿Vas a comprar algo? ¿No? Me alegro, no tengo nada para vender.","Willst du auch etwas kaufen? Nein? Gut, ich habe ohnehin nichts.","Hai intenzione di comprare qualcosa? No? Bene, tanto non avevo niente da venderti.","Vai comprar algo ou não? Não? Ótimo, não tenho nada para vender.","何か買おうって気はあるのか？
+ない？
+よかった、実は売るものがないんでね。"
+,,pig_shop_not_enough_stones_00,,"หินสน่ห์ไม่พอ, ไม่ขาย.","Pas de charme, pas de matos.","Sin talismán, no hay venta.","Kein Charme, kein Geschäft.","Non ho niente da venderti, non sei abbastanza... incantevole.","Sem pedra, nada de venda.",チャームがないなら、売れないな。
+,,pig_shop_secret_00,,ฉันซ่อนตัวอยู่ที่นี่เพื่อให้ร้านของฉันดูทันสมัย บอกเพื่อนของคุณเกี่ยวกับเรื่องนี้!,Je me planque ici pour que ma boutique attire les foules ! Parles-en à tes potes !,Estoy escondido aquí para que mi tienda se ponga de moda. ¡Díselo a tus amigos!,"Ich verstecke mich hier, damit mein Laden zum Geheimtipp wird. Erzähl allen davon!",Mi nascondo qui per rendere il mio negozio ancora più esclusivo. Spargi la voce tra i tuoi amici!,Estou escondido aqui para que a loja cause um burburinho. Conte aos seus amigos sobre ela!,この店が人気になるよう、わざと隠れてるんだ。お友達にも教えてくれよ！
+,,pig_password_00,,"ฉันแจกรหัสพวกนั้นมาหลายสิบปีแล้ว.
+เก็บไว้ให้ดี!","Je distribue ces codes ancestraux depuis la nuit des temps.
+Écris-les soigneusement !","Llevo décadas entregando estos códigos ancestrales.
+¡Anótalo cuidadosamente!","Ich gebe diese ollen Passwörter jetzt schon seit Jahrzehnten aus.
+Schreib sie dir sorgfältig auf!","Ormai sono secoli che ho a che fare con questi codici ancestrali.
+Scrivili con la massima attenzione!","Há décadas que eu distribuo estes códigos ancestrais.
+Anote-os com atenção!","こういう古代の暗号を、もう何十年も教え続けてるんだ。
+間違えないようにメモしとけよ！"
+,,pig_password_01,,"ฉันคิดว่าคุณไม่ควรที่จะเริ่มต้นใหม่ทั้งหมด.
+จำรหัสผ่านนี้ จะช่วยให้คุณประหยัดเวลา, it'll save you time!","Trop fainéant pour recommencer depuis le début ?
+Bah, mémorise ce code, histoire de gagner du temps !","Supongo que no tienes ganas de empezar desde el principio.
+¡Recuerda esta contraseña, te ahorrará tiempo!","Du bist bestimmt zu geizig, um noch mal ganz von vorn anzufangen.
+Behalte dieses Passwort, es wird dir Zeit sparen!","Non hai voglia di ricominciare tutto da capo, eh?
+Ricorda questa password: ti farà risparmiare tempo!","Você deve estar com preguiça de recomeçar do zero.
+Lembre-se desta senha, ela poupará seu tempo!","最初からやり直すのは面倒くさい、そういう顔だな。
+このパスワードをよく覚えとけ、時間の節約になるから！"
+,,pig_chat_doors_00,,หมู่บ้านแห่งนี้เต็มไปด้วยประตูลับ.,Ce village est truffé de portes secrètes.,Esta aldea está llena de puertas secretas.,Dieses Dorf ist voller Geheimtüren.,Questo villaggio è pieno di porte segrete.,Este vilarejo é cheio de portas secretas.,この村には隠しドアがいっぱいだ。
+,,pig_chat_doors_01,,ในวันหยุด ฉันเปิดร้านค้าลับในชั้นใต้ดิน.,"Quand je bosse pas, je m'occupe de ma boutique secrète au sous-sol.",En mis días libres llevo una tienda secreta en el sótano.,An freien Tagen betreibe ich im Keller einen Geheimladen.,Nei miei giorni liberi gestisco un negozietto segreto giù in cantina.,"Nos dias de folga, eu gerencio minha loja secreta no porão.",休みの日には、地下で秘密の店を開いてるんだ。
+,,pig_chat_lizard_00,,"ว้าว.
+ด้วยใบหน้าแบบคุณตอนนี้ ฉันควรมองหายาแก้พิษให้.","Ouah !
+Avec une tronche comme la tienne, j'irais me dégoter un antidote.","Vaya.
+Con esa cara yo estaría buscando un antídoto.","Wow.
+Mit so einem Gesicht würde ich sofort nach einem Gegenmittel suchen.","Wow.
+Se avessi una faccia come la tua, cercherei subito un antidoto!","Uau.
+Com uma cara dessas, eu estaria procurando um antídoto.","うわっ。
+俺があんたみたいな顔になったら、今すぐ毒消しを探すけどな。"
+,,pig_chat_lizard_01,,"ว้าว.
+ทำหน้าแบบนั้น... แกโดนสาปหรือว่าแค่แพ้พนัน?","Ouah !
+T'as vu ta tronche ? On t'a ensorcelé ou t'as perdu un pari ?","Vaya.
+Esa cara... ¿Es una maldición o has perdido una apuesta?","Wow.
+Dieses Gesicht ... War das ein Fluch oder hast du nur eine Wette verloren?","Wow.
+Che faccia! Ti hanno lanciato una maledizione o hai solo perso una scommessa?","Uau.
+Essa sua cara... Você foi amaldiçoado ou apenas perdeu uma aposta?","うわっ。
+その顔…呪われたのか、それとも賭けに負けたの？"
+,,pig_chat_lizard_equipment,,อุปกรณ์มีประโยชน์ในการเพิ่ม [b]attack[/b] และ [b]defense[/b] .,L'équipement permet de booster tes points d'[b]attaque[/b] et de [b]défense[/b].,El equipamiento es útil para aumentar tus puntos de [b]ataque[/b] y [b]defensa[/b].,"Ausrüstung ist nützlich, um deine [b]Angriff[/b] und [b]Abwehr[/b]-Punkte zu erhöhen.",L'equipaggiamento è utile per aumentare i tuoi punti [b]attacco[/b] e [b]difesa[/b].,Equipamentos são úteis para aumentar seus pontos de [b]ataque[/b] e [b]defesa[/b].,装備はあんたの[b]アタック[/b]と[b]ディフェンス[/b]ポイントを増やしてくれるぞ。
+,,pig_chat_lizard_heart1,,รักหมู่บ้านนี้มาก; อีกหนึ่ง [b]heart[/b] ที่จะพิชิต.,"Ce village foisonne d'amour ! Et un [b]coeur[/b] de plus à conquérir, un !",En esta aldea hay mucho amor; otro [b]corazón[/b] que conquistar.,So viel Liebe in diesem Dorf; noch ein [b]Herz[/b] zu erobern.,"Questo villaggio ha tanto amore da dare, e tu avrai sempre un [b]cuore[/b] da conquistare.",O vilarejo tem muito amor pra dar; mais um [b]coração[/b] pra conquistar.,この村には愛が溢れてる。あと1つ、つかむべき[b]ハート[/b]があるぞ。
+,,pig_chat_lizard_key1,,"ฉันไม่เคยเก็บ [b]keys[/b] สำรองไว้ในหมู่บ้าน, มันดูจะไม่ปลอดภัยเกินไป.",Garder mes doubles de [b]clés[/b] dans le village ? Jamais de la vie !,"Nunca dejo mis [b]llaves[/b] de repuesto en la aldea, sería demasiado seguro.","Ich verwahre meine überzähligen [b]Schlüssel[/b] nie im Dorf, das wäre viel zu sicher.",Non tengo mai le mie [b]chiavi[/b] di riserva nel villaggio: sarebbero troppo al sicuro.,"Eu nunca deixo minhas [b]chaves[/b] de reserva no vilarejo, seria seguro demais.",村にスペアの[b]カギ[/b]を置いとくようなことはないな、安全過ぎる。
+,,pig_chat_lizard_heart2,,"Riddle, champ: ในตอนเช้า, ฉันมีเบียร์. ตอนเที่ยง, ฉันชอบเล่นกอล์ฟ. ตอนกลางคืน, นั่งแทบไม่ได้. ฉันเป็นใคร?","P'tite devinette : le matin, j'bois de la bière. Le midi, je joue au golf. Le soir, j'ai un mal de chien à m'asseoir. Qui suis-je ?","Un acertijo: por la mañana, bebo cerveza. A mediodía, me encanta jugar al golf. Por la noche, apenas puedo sentarme. ¿Quién soy?",Rate mal: Morgens trinke ich Bier. Mittags spiele ich gern Golf. Abends kann ich kaum stillsitzen. Wer bin ich?,"Indovinello: al mattino bevo birra, a mezzogiorno gioco a golf, e la notte quasi non riesco a sedermi. Chi sono?","Uma charada: De manhã, tomo cerveja. À tarde, jogo golfe. À noite, mal posso sentar. Quem sou eu?",勇者よ、なぞなぞだ。朝はエールを飲む。昼はゴルフをする。夜はそわそわする。これな～んだ？
+,,pig_chat_mouse_00,,สวัสดีหนูน้อย. เมื่อเร็ว ๆ นี้คุณเคยเห็นจิ้งจกน่าเกลียดตัวนั้นหรือไม่?,"Hello, p'tit gars ! T'aurais pas vu un affreux lézard dans le coin ?","Hola, pequeñín. ¿Has visto últimamente a ese lagarto tan feo?","Hallo, Kleines. Hast du diese hässliche Echse gesehen?",Ciao! Per caso hai visto in giro quella brutta lucertola ultimamente?,"Olá, pequenino. Tem visto aquele lagarto feioso?",よお、おチビさん。最近ブサイクなトカゲを見かけなかったか？
+,,pig_chat_mouse_01,,I love small creatures of your kind.,"Les petites bestioles dans ton genre, ça m'éclate !",Me encantan las criaturas pequeñas como tú.,Ich mag kleine Kreaturen wie dich.,Mi piacciono le creaturine come te.,Adoro pequenas criaturas como você.,あんたみたいな小っちゃい生き物が大好きなんだ。
+,,pig_chat_mouse_02,,"I can't think of anything to tell you, it all sounds cheesy to me.","J'ai rien à te raconter ! Oh, ça va, tu vas pas en faire un fromage !",Seguro que a ti nunca te la dan con queso.,"Ich weiß nicht, was ich zu dir sagen soll, es würde alles zweideutig klingen.","Al topolino non far sapere quant'è buono il form... Ehm, no, niente.",Não consigo pensar em nada para lhe dizer. Só consigo pensar em queijo.,"話すべきことが思いつかないから、写真でも撮る？
+はいチーズ、ってさ。"
+,,pig_chat_mouse_03,,"I see a hole in your future, mouse.","Dis-moi, p'tite souris, tu souris souvent ?","Veo un agujero en tu futuro, ratón.","Du hast eine große Zukunft vor dir, kleine Maus.","Vedo un buco nel tuo futuro, topo.","Eu vejo um buraco no seu futuro, rato.",ネズミよ、そなたの未来には穴が開いているぞよ。
+,,pig_chat_piranha_00,,Good to see someone of my height again. This place has been a circus lately.,"Enfin, quelqu'un de ma taille ! En ce moment, c'est le bazar ici !",Me alegro de volver a ver a alguien de mi altura. Últimamente esto parece un circo.,"Schön, mal wieder jemanden in meiner Größe zu sehen. Hier ging es in letzter Zeit zu wie im Zirkus.",È bello rivedere qualcuno che sia alla mia altezza. Questo posto ultimamente sembrava un circo.,Finalmente alguém da minha altura. Este lugar tem parecido um circo.,同じくらいの背のヤツが来てくれてうれしいよ。最近ここはサーカスみたいだったんでね。
+,,pig_chat_piranha_01,,"Welcome back!
+You make me want to cover my other eye.","Salutations ! Quand j'te vois, j'me dis qu'il y a anguille sous roche.",Bienvenido de nuevo. Me das ganas de taparme el otro ojo.,Willkommen zurück. Bei deinem Anblick würde ich mir am liebsten auch das andere Auge zuhalten.,"Ci rivediamo! In realtà, quando ti vedo mi viene voglia di tapparmi anche l'altro occhio.",Bem-vindo de volta. Você me dá vontade de tapar meu outro olho.,おかえり。あんたを見てると、もう片っぽの目を隠したくなるな。
+,,pig_chat_piranha_02,,Can you hold your breath for more than 10 minutes?,T'es capable de retenir ta respiration pendant 10 minutes ?,¿Puedes aguantar la respiración más de 10 minutos?,Kannst du die Luft länger als 10 Minuten anhalten?,Sai trattenere il fiato per più di 10 minuti?,Consegue prender a respiração por mais de 10 minutos?,あんた、10分以上息を止めてられる？
+,,pig_chat_piranha_03,,"I can see your future from here.
+No need to come closer.",Pas besoin de t'approcher ! Je vois parfaitement ton avenir d'ici !,Veo tu futuro desde aquí. No hace falta que te acerques más.,"Ich kann deine Zukunft von hier aus gut sehen, du musst nicht näherkommen.",Riesco a vedere il tuo futuro benissimo anche da qui. Non c'è bisogno che ti avvicini.,Eu consigo ver seu futuro daqui. Não precisa se aproximar.,ここからでもそなたの未来が見える。だからそれ以上近づく必要はないぞ。
+,,pig_chat_piranha_canyon,,"You fishy people are always hanging out at the beach.
+Don't you have a burning desire to explore elsewhere?","À la plage, tu dois te sentir comme un poisson dans l'eau.
+Mais tu ressens pas un désir ardent de changer d'air un peu ?","Tienes agallas, pero me das mala espina.
+¿No tienes unas ganas locas de explorar otro sitio?","Ihr Fischtypen hängt immer nur am Strand rum.
+Verspürst du nicht das brennende Verlangen nach einem Ortswechsel?","Voi gente di mare passate tutto il tempo a bighellonare in spiaggia.
+Non vi viene mai voglia di esplorare altri posti?","Vocês peixes só ficam pela praia.
+Não tem vontade de explorar outros lugares?","あんたら魚っぽい連中ときたら、いつもビーチでダベってるな。
+他の場所を探検したい、とかいう熱い想いはないのかね？"
+,,pig_chat_piranha_dragonmail,,"If you don't want to get fried, remember to wear your [b]Dragon Mail[/b] when it gets hot.","Si tu veux pas que ton aventure finisse en queue de poisson, enfile ton [b]armure de dragonl[/b].","Si no quieres acabar frito, acuérdate de llevar tu [b]malla de dragón[/b] cuando haga calor.","Wenn du nicht frittiert werden willst, solltest du immer deinen [b]Drachen-Kettenpanzer[/b] tragen.","Se non vuoi finire arrosto, ricorda di indossare la [b]Maglia del Drago[/b] quando inizia a fare caldo.","Se não quiser acabar frito, lembre-se de vestir sua [b]Cota Dracônica[/b] quando o clima esquentar.",焼き魚になりたくなかったら、暑いとこには[b]ドラゴンメイル[/b]を着ていくがよい。
+,,pig_chat_lion_00,,"Now that's a warrior!
+The mane, the roar, the smell.","Ah, en voilà un guerrier pure souche ! La crinière, le rugissement, l'odeur...","¡Eso sí que es un guerrero! ¡Qué melena, qué rugido, qué olor!","Welch Stolz! Die Mähne, das Gebrüll, der strenge Geruch!","Non ti manca proprio niente per essere un vero guerriero: la criniera, il ruggito, l'odore...","Isso sim é um guerreiro! A juba, o rugido, o cheiro.",あんたこそ戦士だ！　そのタテガミ、その咆哮、それと体臭。
+,,pig_chat_lion_01,,"Whoever built this underground cave really had a thing for secret doors.
+Keep knocking around!","Celui qui a construit cette grotte est obsédé par les portes secrètes.
+Toc-toc-toc ! Continue ton petit bonhomme de chemin !","A quien construyera esta cueva subterránea le encantaban las puertas secretas.
+¡No dejes de dar golpes!","Wer immer diese Höhlen geschaffen hat, hatte eine Vorliebe für Geheimtüren.
+Immer schön alles abklopfen!","Chiunque abbia costruito questo antro sotterraneo aveva la fissa delle porte segrete.
+Continua a bussare in giro!","Quem construiu esta caverna subterrânea devia adorar portas secretas.
+Continue explorando!","この地下洞窟を造ったヤツは、間違いなく隠しドアマニアだ。
+そこら中、ノックして回るといい！"
+,,pig_chat_lion_02,,Why are you always carrying your sword like that?,Pourquoi tu tiens toujours ton épée comme ça ?,¿Por qué llevas la espada siempre así?,Warum trägst du dein Schwert immer so?,Perché tieni sempre la spada in quel modo?,Por que você sempre carrega sua espada assim?,なんでいつもそんな風に剣を持ってるんだ？
+,,pig_chat_hawk_00,,"Those wings... so much to explore!
+Aren't you supposed to be taking off now?","T'es un peu comme un oiseau sur la branche, ici !
+Tu pourrais t'envoler vers de nouveaux horizons, non ?","Esas alas... ¡y tanto por explorar!
+¿No deberías salir volando?","Diese Schwingen ... es gibt so viel zu entdecken!
+Solltest du jetzt nicht mal die Flatter machen?","Quanto potresti esplorare con quelle belle ali!
+Perché non prendi il volo all'istante?","Estas asas... tantos lugares para explorar!
+Você não deveria estar decolando agora?","その羽…探検できる場所が拡がったな！
+まだ離陸しなくていいのかね？"
+,,pig_chat_hawk_01,,The count will see you shortly.,Le comte va bientôt te recevoir.,El conde te verá en breve.,"Der Graf wird Euch ""in Kürze"" empfangen.",Il conte ti riceverà quanto prima.,O conde receberá você em breve.,まもなく伯爵様がお見えです。
+,,pig_chat_hawk_02,,"Do you like my puns?
+Most of the time I just wing it.","T'aimes bien mes jeux de mot ? En général, j'improvise !",¿Te gustan mis juegos de palabras? Normalmente los hago al vuelo.,Magst du meine Witze? Fast alles frei nach Schnabel.,Ti piacciono i miei giochi di parole? Adoro volare con la fantasia.,Que tal meus trocadilhos? Eu gosto de dar asas ao meu senso de humor.,"俺のダジャレ、格調タカいだろ？
+芸人になったらホークマン長者間違いなしだな！"
+,,pig_chat_hawk_03,,Careful with that long beak of yours!,Attention ! Tu vas finir par blesser quelqu'un avec ton bec !,¡Cuidado con ese pico tan largo!,Vorsicht mit dem langen Schnabel.,Occhio con quel tuo becco lungo!,Cuidado com esse seu bico grande!,"その鋭いクチバシ、
+気を付けてくれよ！"
+,,pig_chat_hawk_04,,I've heard good things about flying. Is it true?,"Il paraît que voler, c'est chouette. C'est vrai ?",Me han dicho que volar está muy bien. ¿Es verdad?,Hab schon viel Gutes über das Fliegen gehört. Ist das wahr?,Dicono che volare sia molto bello. È vero?,Ouvi dizer que é ótimo voar. É verdade?,空を飛ぶのって、健康にいいんだって？
+,,pig_chat_hawk_vampire,,"There is an elegant vampire living up in the sky. 
+If a friend of yours is cursed he might have a solution.","J'connais un vampire BCBG qui vit dans le ciel.
+Si un de tes amis est ensorcelé, il aura peut-être la solution.","Hay un vampiro elegante que vive en el cielo.
+Si algún amigo tuyo está maldito, quizás tenga la solución.","Da oben in den Wolken lebt ein eleganter Vampir.
+Vielleicht kann er helfen, wenn einer deiner Freunde verflucht wird.","Su in cielo vive un vampiro elegantissimo. 
+Se hai un amico che è stato maledetto, forse lui ha la soluzione.","Tem um vampiro elegante que mora lá no alto, no céu. 
+Se você conhece alguém que foi amaldiçoado, ele pode ter uma solução.","空には上品な吸血鬼が住んでるんだ。
+あんたに呪われてる友達がいたら、彼に会うよう勧めてみな。"
+,,pig_chat_hawk_other,,That bird has been leaving feathers everywhere.,"À cause de cet oiseau, y a des plumes partout !",Ese pájaro ha dejado plumas por todas partes.,Dieser Vogel hat hier überall seine Federn hinterlassen.,Quell'uccellaccio ha lasciato piume ovunque.,Aquele pássaro tem espalhado penas por toda parte.,立つ鳥跡を濁さず、っていうけど、そこら中羽毛だらけだ。
+,,pig_chat_human_00,,"It's been a long time.
+I thought you'd never come back to Monster Land!","Oh, ça faisait un bail ! Je pensais jamais te revoir à Monster Land !",¡Cuánto tiempo! ¡Pensaba que nunca volverías a Monster Land!,"Ist schon lange her. Ich dachte, du würdest nie mehr nach Monster Land zurückkehren!",Ne è passato di tempo! Credevo che non avresti mai più messo piede a Monster Land!,Há quanto tempo! Achei que você nunca voltaria para Monster Land!,久しぶりだね。もうモンスターワールドには戻ってこないかと思ったよ！
+,,pig_chat_human_00_girl,,"It's been a long time.
+I thought you'd never come back to Monster Land!","Oh, ça faisait un bail ! Je pensais jamais te revoir à Monster Land !",¡Cuánto tiempo! ¡Pensaba que nunca volverías a Monster Land!,"Ist schon lange her. Ich dachte, du würdest nie mehr nach Monster Land zurückkehren!",Ne è passato di tempo! Credevo che non avresti mai più messo piede a Monster Land!,Há quanto tempo! Achei que você nunca voltaria para Monster Land!,久しぶりだね。もうモンスターワールドには戻ってこないかと思ったよ！
+,,pig_chat_human_01,,"There are still some secrets to be told, some gold chests to be bold...",Il reste encore des secrets à révéler et des coffres aux trésors à dénicher...,"Aún quedan secretos por contar, tesoros por encontrar...","Noch sind Geheimnisse zu lüften, Schatztruhen zu finden und zu plündern ...","Ci sono ancora tanti segreti da svelare, e tanti forzieri d'oro da trovare...","Ainda há segredos para serem revelados, baús de ouro para serem abertos...",まだ明かされていない秘密が、暴かれていない宝が隠れてるぞ……
+,,pig_chat_human_01_girl,,"There are still some secrets to be told, some gold chests to be bold...",Il reste encore des secrets à révéler et des coffres aux trésors à dénicher...,"Aún quedan secretos por contar, tesoros por encontrar...","Noch sind Geheimnisse zu lüften, Schatztruhen zu finden und zu plündern ...","Ci sono ancora tanti segreti da svelare, e tanti forzieri d'oro da trovare...","Ainda há segredos para serem revelados, baús de ouro para serem abertos...",まだ明かされていない秘密が、暴かれていない宝が隠れてるぞ……
+,,pig_chat_human_02,,What are you still doing here?,Qu'est-ce tu fabriques encore ici ?,¿Qué haces aquí todavía?,Was machst du noch hier?,Cosa ci fai ancora qui?,Por que você ainda está aqui?,ここにまだ用事があるのかね？
+,,pig_chat_human_02_girl,,What are you still doing here?,Qu'est-ce tu fabriques encore ici ?,¿Qué haces aquí todavía?,Was tust du noch hier?,Cosa ci fai ancora qui?,Por que você ainda está aqui?,ここにまだ用事があるのかね？
+,,pig_chat_human_03,,"Welcome home, adventurer.","Bienvenue chez toi, aventurier.","Bienvenido a casa, aventurero.","Willkommen daheim, Abenteurer.","Bentornato, avventuriero.","Bem-vindo de volta, aventureiro.",お帰りなさい、冒険者。
+,,pig_chat_human_03_girl,,"Welcome home, adventurer.","Bienvenue chez toi, aventurière !","Bienvenida a casa, aventurera.","Willkommen daheim, Abenteurerin.","Bentornata, avventuriera.","Bem-vinda de volta, aventureira.",お帰りなさい、冒険者。
+,,pig_chat_stones_00,,"I keep hearing about those elusive [b]charm stones[/b], but they are nowhere to be found.","Tout le monde parle des [b]pierres de charme[/b], mais elles sont introuvables !","Me han hablado mucho de esas esquivas [b]piedras talismán[/b], pero no las encuentro por ninguna parte.","Ich höre immer wieder von diesen [b]Charme-Steinen[/b], aber man kann sie nirgends finden.","Continuano a girare voci su quei rarissimi [b]talismani[/b], ma sembra siano introvabili.","Eu sempre ouço falar nas tais [b]pedras encantadas[/b], mas não consigo achá-las.",貴重な[b]チャームストーン[/b]のうわさをよく聞くんだが、どこにも見つからないんだ。
+,,pig_chat_stones_01,,"In the old days, it would have taken more than a few charm stones to impress me.","À l'époque, quelques pierres de charme n'auraient pas suffi pour m'impressionner.",Antiguamente habría hecho falta algo más que unas cuantas piedras talismán para impresionarme.,"Früher hätte es mehr als ein paar Charme-Steine gebraucht, um mich zu beeindrucken.","Ai vecchi tempi, ci sarebbe voluta ben più di qualche Pietra Incantata per impressionarmi.","Antigamente, eu não ficaria impressionado com algumas pedras encantadas.",昔だったら、チャームストーンの1つや2つで感服したりはしなかったぞ。
+,,pig_chat_stones_02,,I suppose I should be impressed that you found those charm stones.,"Ouais, t'as trouvé des pierres de charme... Je devrais être impressionné !",Supongo que debería impresionarme que hayas encontrado esas piedras talismán.,"Ich sollte jetzt wohl beeindruckt sein, weil du diese Charme-Steine gefunden hast.",Dovrei essere davvero impressionato per il fatto che tu abbia trovato quei talismani?,"Você deve achar que me impressionou, trazendo essas pedras encantadas.",チャームストーンを見つけたとは、やるじゃないか。感服したぞ。
+,,pig_chat_stones_03,,"In the old days it would have taken more than six charm stones to impress me. Oh well, congratulations!","Autrefois, il aurait fallu plus de six pierres de charme pour m'impressionner. Enfin, bon... Félicitations !","Antiguamente habrían hecho falta más de seis piedras talismán para impresionarme. En fin, ¡enhorabuena!","Früher hätte es mehr als sechs Charme-Steine gebraucht, um mich zu beeindrucken. Aber gut, ich gratuliere!","Ai vecchi tempi, non ti sarebbero bastate sei Pietre Incantate per impressionarmi. Beh, congratulazioni!","Antigamente, eu não ficaria impressionado com seis pedras encantadas. De qualquer forma, parabéns!","昔は、私を感服させるには
+チャームストーンが6つより多く必要だったものだ。いやはや、おめでとう！
+"
+,,nurse_chat_00,,"นายดูตลกดี.
+นายทำให้ฉันสนใจ.","T'as pas l'air dans ton assiette.
+T'inquiète, la première piqûre est gratuite. ","Eres un poco peculiar.
+A la primera inyección invito yo.","Du siehst lustig aus.
+Das erste Mal geht auf mich.","Hai un'aria un po' strana...
+La prima iniezione la offro io.","Você não parece bem.
+A primeira cura é por minha conta.","あなた、面白いお顔ね。
+最初の注射はタダでいいわ。"
+,,nurse_chat_01,,"คนต่อไป.
+ฉันรู้ว่านายจะต้องกลับมาแน่.","Suivant, s'il vous plaît !
+Ah, je savais que tu reviendrais pour une p'tite piqûre.","Siguiente, por favor.
+Sabía que volverías a por una inyección.","Der Nächste bitte.
+Ich wusste, du würdest wiederkommen.","Avanti il prossimo.
+Sapevo che ne avresti voluta un'altra.","Próximo?
+Eu sabia que você acabaria voltando.","次の方、どうぞ～。
+あなたがまた注射を受けに来るのは、わかってたわ。"
+,,nurse_chat_02,,"ถ้าคุณกำลังจะตาย ฉันจะช่วย .",Tu agonises ? Je vais te requinquer !,"Si estás muriéndote, te ayudaré.","Wenn du stirbst, dann helfe ich dir.",Ti aiuto solo se stai per morire.,"Se estiver morrendo, posso ajudar.",死にかけてるなら、助けてあげる。
+,,nurse_chat_03,,นักออกแบบดึงฉันไว้อย่างนั้น พวกเขาควรจะรู้ดีกว่า .,On m'a dessinée comme ça. J'y peux rien...,Los diseñadores me dibujaron así. Deberían ser más sensatos.,Die Grafiker haben mich so gezeichnet. Sie sollten es besser wissen.,Sono gli sviluppatori che mi disegnano così. Se va bene a loro...,Os designers me fizeram assim. Eles não aprendem.,私をあんな風に描いたデザイナーが悪いのよ。やれやれだわ。
+,,nurse_chat_full_00,,คุณดูมีสุขภาพดีเกินไป ที่จะเป็นลูกค้า.,"Les clients en bonne santé, c'est pas ma tasse de thé.",Tienes un aspecto demasiado sano para ser un buen cliente.,"Du siehst zu gesund aus, um ein guter Patient zu sein.",Sembri troppo in salute per essere un buon cliente.,Você me parece saudável demais.,あなたは全然元気そうで、理想的な患者さんとは言えないわね。
+,,nurse_chat_pyramid_00,,พีระมิดแห่งนี้ไม่ใช่สถานที่ที่ดีในการเริ่มต้นธุรกิจ รู้สึกเหมือนเป็นสุสาน .,Cette pyramide n'est pas bonne pour les affaires. Un peu trop sépulcrale à mon goût !,La pirámide no es un buen sitio para abrir un negocio. Parece una tumba.,Diese Pyramide ist kein guter Ort für einen Laden. Fühlt sich wie ein Grab an.,Questa piramide non è l'ideale per avviare un'attività: sembra una tomba!,Esta pirâmide não é um bom lugar para abrir um negócio. Eu me sinto numa tumba.,このピラミッドは商売を始めるにはいい場所じゃないわね。なんだかお墓みたい。
+,,nurse_chat_pyramid_01,,"ใช่ฉันมีผ้าพันแผล เรามีมัมมี่จำนวนมากที่นี่ .","Avec toutes les momies, ce ne sont pas les bandages qui manquent ici.","Sí, tengo vendas. Hay muchas momias aquí.","Ja, ich habe Bandagen. Hier gibt es jede Menge Mumien.","Sì, ho delle bende. Abbiamo un sacco di mummie qui.","Sim, eu tenho ataduras. Temos muitas múmias por aqui.",ええ、包帯ならあるわ。ここにはミイラがいっぱいいるから。
+,,nurse_chat_canyon_00,,คุณตั้งใจทำให้ผิวของคุณไหม้หรือคุณมีความสุขที่ได้พบฉัน?,Tu t'es brûlé ou t'es juste content de me voir ?,¿Te has quemado la piel o solo querías verme?,"Hast du dich verbrannt oder freust du dich nur, mich zu sehen?",Hai delle bruciature addosso o sei solo felice di vedermi?,Você se queimou ou está feliz em me ver?,大火傷でもしたの、それとも私に会いに来てくれたの？
+,,nurse_chat_canyon_01,,มันเป็นรอยไหม้เล็กน้อย.,"Oh, ça risque de brûler un chouya.",Esto puede quemar un poco.,Das könnte ein bisschen brennen.,Questo potrebbe bruciare un po'.,Isso vai arder um pouco.,ここはちょっと暑いわね。
+,,nurse_chat_underwater_00,,ฉันเมาเรือจากการรักษาปลาทั้งวัน สวัสดี! !,"Soigner des poissons, ça me donne le mal de mer ! Bonjour !",Estoy mareada de tanto curar peces. ¡Hola!,"Ich bin es leid, den ganzen Tag Fische zu behandeln. Hallo!","Non ne posso più di curare sempre i pesci. Oh, salve!",Estou enjoada de curar peixes o dia todo. Olá!,一日中、魚の治療をしてて気分が悪くなってきちゃった。あら、どうも！
+,,nurse_chat_rocky_00,,"ไม่ใช่สถานที่ที่ดีในการเริ่มต้นธุรกิจ ฉันรู้.","Oui, je sais... Pas vraiment l'endroit idéal pour ouvrir un commerce.","No es un buen sitio para abrir un negocio, ya lo sé.","Nicht der beste Ort für einen Laden, ich weiß.","Questo posto non è l'ideale per avviare un'attività, lo so.","Eu sei, não é um bom lugar para abrir um negócio.",商売を始めるにはいい場所じゃないわね、ええ。
+,,nurse_chat_palace_00ฉันมีลูกค้าเฉพาะที่นี่ พวกเขาทั้งหมดตายตอนกลับมา.,"Ici, mes clients sont un tantinet bizarroïdes. Ils meurent et ressuscitent.",Aquí tengo una clientela muy particular. Todos mueren y vuelven.,Meine Kundschaft hier ist sehr speziell. Sie sterben alle und kommen dann wieder.,"Ho una clientela molto particolare: muoiono tutti, ma tornano sempre.",Tenho uma clientela bastante peculiar aqui. Todos eles morrem e voltam.,ここには特別な患者さんたちがいるわ。死んで、生き返って来るの。
+,,nurse_thanks_00,,มีความสุขเสมอ ขอให้หายเจ็บไว ๆ นะ!,Merci bien ! Fais-toi vite bobo pour revenir me voir rapidos !,Siempre es un placer. ¡Hazte daño y vuelve pronto!,Ist mir immer ein Vergnügen. Bitte lass dich verwunden und komm recht bald wieder!,È stato un piacere! Fatti male e torna presto!,É sempre um prazer. Por favor se machuque e volte em breve!,はい、今回はこれで終わり。またケガをして、会いに来てね！
+,,nurse_thanks_01,,ไม่มีใครดูแลบาดแผลของฉัน ฉันเป็นพยาบาลของฉันเอง.,"T'as de la chance ! Moi, mes blessures, personne ne s'en occupe.",Nadie se ocupa de mis heridas. Soy mi propia enfermera.,Meine Wunden versorgt niemand. Ich bin meine eigene Krankenschwester.,Non c'è nessuno che curi le mie ferite: devo sempre curarmi da sola.,Ninguém cuida de mim. Sou minha própria enfermeira.,私のケガは誰も治してくれないの。私が私の看護師、ってわけ。
+,,nurse_thanks_02,,ข้างนอกก็ไม่ได้แย่อะไรมากมาย ฉันค่อนข้างมั่นใจว่าคุณจะทำได้ดี .,"Bah, c'est pas si dangereux ici ! Je suis sûre que tout va bien se passer.",La cosa no está tan mal ahí fuera. Seguro que te va muy bien.,Ist nicht so übel da draußen. Du wirst das schon schaffen.,"Là fuori non è tanto male, scommetto che te la caverai alla grande.",Não parece tão feio. Tenho certeza que você ficará bem.,誰にでも欠点はあるわ。あなたならきっと大丈夫よ。
+,,nurse_chat_lizard_00,,ฉันรักผิวหนังและเลือดที่เย็น มันเหมือนกับดนตรีที่มีเนื้อหนังสำหรับฉัน.,"Les écailles et le sang froid, ça me donne pas la chair de poule.",Me encantan las escamas y la sangre fría.,Ich liebe Schuppen und kaltes Blut.,Adoro le squame e il sangue freddo.,Adoro escamas e sangue frio.,ウロコも冷たい血も好きよ。
+,,nurse_chat_mouse_00,,ให้ฉันดูแลบาดแผลเล็ก ๆ ของคุณ.,Je vais m'occuper de ta toute petite blessure rikiki.,Deja que me ocupe de tus minúsculas heridas.,Lass mich deine winzigen Wunden versorgen.,Lascia che mi prenda cura delle tue feritine.,Deixe-me cuidar das suas feridinhas.,さあ、あなたの小っちゃな傷を診させてね。
+,,nurse_chat_hawk_00,,"ปีกที่เปราะบางเหล่านั้นถูกสร้างขึ้นเพื่อการบิน ไม่ใช่การต่อสู้.","Oh, ces petites ailes toutes fragiles sont faites pour voler, pas pour se bagarrer.","Esas alas tan frágiles sirven para volar, no para luchar.",Diese zarten Flügel sind zum Fliegen da und nicht zum Kämpfen.,"Quelle fragili ali sono fatte per volare, non per combattere.","Essas asinhas frágeis foram feitas para voar, não para lutar.",その華奢な翼は飛ぶためのもの、戦うためじゃないのよ。
+,,nurse_chat_human_00,,ฉันเคยเห็นคุณที่ไหนมาก่อน?,"On se connaît, non ?",¿Te he visto antes en algún sitio?,Hab ich dich schon mal gesehen?,Ti ho già visto da qualche parte?,Não conheço você de algum lugar?,前にどこかで会ったかしら？
+,,nurse_chat_hugirl_00,,วิดีโอเกมฮีโร่ไม่ใช่กฎตายตัวอีกต่อไป ... แต่วิดีโอเกมพยาบาล?,"Dans les jeux, les aventurières au look stéréotypé, c'est fini... Les infirmières par contre...","Los héroes de videojuego ya no son un estereotipo, pero ¿y las enfermeras?",Videospiel-Helden sind keine Stereotype mehr. Aber Videospiel-Krankenschwestern?,Gli eroi dei videogiochi non sono più degli stereotipi. E le infermiere dei videogiochi?,Heróis de videogames não são mais um estereótipo...mas enfermeiras de videogames?,ゲームに出て来るヒーローって色んなタイプがいるけど、看護師はワンパターンよね？
+,,ending_000,,"การเดินทางที่เต็มไปด้วยการต่อสู้อันยาวนาน  
+ในทึ่สุดก็จบลงเสียที.","Ton périple périlleux
+touche enfin à sa fin.","El viaje, largo y repleto de batallas,
+ha terminado por fin.","Die lange, beschwerliche Reise
+ist endlich zu Ende.","Il lungo e bellicoso viaggio
+è finalmente terminato.","O terrível exército dos monstros
+foi novamente derrotado.","ながかった　たたかいの
+たびは　おわった。"
+,,ending_001,,"เรื่องราวของคุณกล้าหาญ
+และเป็นการกระทำที่เป็นฮีโร่","Le récit de tes actes
+vaillants et héroïques","Las historias de tus hazañas
+valientes y heroicas","Die Kunde deiner edlen
+und heroischen Taten","L'eco delle tue gesta
+nobili ed eroiche","Canções sobre sua bravura
+e seus feitos heroicos","きみの　ゆうきは
+えいえんに"
+,,ending_002,,"เรื่องเล่าของคุณจะถูกส่งต่อไป
+จากรุ่นหนึ่งไปสู่อีกรุ่นหนึ่ง
+ตลอดไปชั่วนิรันดร์.","sera transmis
+de génération en génération
+jusqu'à la fin des temps.","pasarán
+de generación en generación
+durante toda la eternidad.","wird nun bis
+in alle Ewigkeit weiterleben.","risuonerà
+di generazione in generazione,
+fino all'eternità.","serão entoadas
+de geração em geração
+por toda eternidade.","かたりつがれて
+ゆくことだろう。"
+,,ending_003,,"ฝันดี นักรบผู้กล้า.","Bonne nuit, valeureux guerrier.","Buenas noches, valiente guerrero.","Gute Nacht, tapferer Krieger.","Buona notte, coraggioso guerriero.","Boa noite, até a próxima aventura.",おやすみ　ゆうしゃよ。
+,,ending_003_girl,,"ฝันดี นักรบผู้กล้า.","Bonne nuit, valeureuse guerrière.","Buenas noches, valiente guerrera.","Gute Nacht, tapfere Kriegerin.","Buona notte, coraggiosa guerriera.","Boa noite, até a próxima aventura.",おやすみ　ゆうしゃよ。
+,,ending_004,,"ฝันดี, มอนสเตอร์แลน...","Bonne nuit, Monster Land...","Buenas noches, Monster Land...","Gute Nacht, Monster Land ...","Buona notte, Monster Land...","Boa noite, Monster Land...",おやすみ　モンスターワールド…
+,,ending_cast_human,,HU-MAN,HU-MAN,HUMANO,JÜNGLING,UMANO,HU-MANO,ヒューマン
+,,ending_cast_hugirl,,HU-GIRL,HU-GIRL,HUMANA,MÄDLING,UMANA,HU-MANA,ヒューガール
+,,ending_cast_lizard,,LIZARD-MAN,LÉZARD-MAN,HOMBRE LAGARTO,ECHSLING,LUCERTOLA,HOMEM-LAGARTO,リザードマン
+,,ending_cast_mouse,,MOUSE-MAN,SOURIS-MAN,HOMBRE RATÓN,MAUSLING,TOPO,HOMEM-RATO,マウスマン
+,,ending_cast_piranha,,PIRANHA-MAN,PIRANHA-MAN,HOMBRE PIRAÑA,PIRANHA-LING,PIRANHA,HOMEM-PEIXE,ピラニアマン
+,,ending_cast_lion,,LION-MAN,LION-MAN,HOMBRE LEÓN,LÖWLING,LEONE,HOMEM-LEÃO,ライオンマン
+,,ending_cast_hawk,,HAWK-MAN,FAUCON-MAN,HOMBRE HALCÓN,FALKLING,FALCO,HOMEM-FALCÃO,ホークマン
+,,retro_ending_text_en_01,,"การเดินทางที่เต็มไปด้วยการต่อสู้อันยาวนาน
+ในทึ่สุดก็จบลงเสียที.",,,,,,
+,,retro_ending_text_en_02,,"เรื่องราวของคุณกล้าหาญ
+และเป็นการกระทำที่เป็นฮีโร่",,,,,,
+,,retro_ending_text_en_03,,"เรื่องเล่าของคุณจะถูกส่งต่อไป
+จากรุ่นหนึ่งไปสู่อีกรุ่นหนึ่ง
+ตลอดไปชั่วนิรันดร์.",,,,,,
+,,retro_ending_text_en_04,,"ฝันดี นักรบผู้กล้า.",,,,,,
+,,retro_ending_text_en_05,,"ฝันดี, มอนสเตอร์แลน....",,,,,,
+,,retro_ending_text_jp_01,,"ながかった　たたかいの　たびは
+おわった。",,,,,,
+,,retro_ending_text_jp_02,,"きみの　ゆうきは　えいえんに
+かたりつがれて　ゆくことだろう。",,,,,,
+,,retro_ending_text_jp_03,,おやすみ　ゆうしゃよ。,,,,,,
+,,retro_ending_text_jp_04,,おやすみ　モンスターワールド・・・・,,,,,,
+,,demo_bitsummit5,,bitsummit 5 demo,,,,,,ビットサミット５ 体験版
+,,demo_start,,story mode,,,,,,ストーリーモード
+,,demo_hero1_name,,demo: lizard-man,démo: lézard-man,demo: hombre lagarto,demo: echsling,demo: Lucertola,demo: Homem-lagarto,体験版　リザードマン
+,,demo_hero2_name,,demo: mouse-man,démo: souris-man,demo: hombre ratón,demo: mausling,demo: Topo,demo: Homem-rato,体験版　マウスマン
+,,demo_hero3_name,,demo: piranha-man,démo: piranha-man,demo: hombre piraña,demo: piranha-ling,demo: Piranha,demo: Homem-peixe,体験版　ピラニアマン
+,,demo_hero4_name,,demo: lion-man,démo: lion-man,demo: hombre león,demo: löwling,demo: Leone,demo: Homem-leão,体験版　ライオンマン
+,,demo_hero5_name,,demo: hawk-man,démo: faucon-man,demo: hombre halcón,demo: falkling,demo: Falco,demo: Homem-falcão,体験版　ホークマン
+,,save_error_title,,SAVE ERROR,ERREUR DE SAUVEGARDE,ERROR AL GUARDAR,FEHLER BEIM SPIELSTAND,ERRORE DI SALVATAGGIO,ERRO AO SALVAR,セーブエラー
+,,save_error_corrupted,,"ข้อมูลเสียหาย .
+ตอนนี้ข้อมูลที่บันทึกไว้จะถูกลบ.","Données corrompues.
+Les données sauvegardées vont être effacées.","Los datos están dañados.
+Se borrarán los datos guardados.","Die Daten sind beschädigt.
+Gespeicherte Daten werden nun gelöscht.","Dati danneggiati.
+I dati salvati verranno eliminati.","Dados corrompidos.
+Os dados salvos serão apagados.","データが壊れています。
+このセーブデータは削除されます。"
+,,save_error_not_enough_space,,พื้นที่ว่างในการจัดเก็บมีไม่เพียงพอ.,Espace insuffisant dans le dispositif de stockage du système.,No hay espacio libre suficiente en el almacenamiento del sistema.,Nicht mehr genügend System-Speicherplatz.,Spazio libero insufficiente.,Não há espaço livre suficiente no sistema.,ストレージの空き容量が足りません。
+,,save_error_unknown,,ข้อผิดพลาดในการบันทึกที่ไม่รู้จัก.,Erreur inconnue.,,,,,
+,X,popup_xb1_controller,,โปรดเลือกคอนโทรลเลอร์.,Sélectionne une manette.,Selecciona un mando.,Bitte wähle einen Controller aus.,Seleziona un controller.,Selecione um controle.,コントローラーを選んでください。
+,X,popup_xb1_user_change,,"ในการเล่น %(NewPlayer), คุณต้องออกจากเกม.
+%(CurrentPlayer) จะสูญเสียความคืบหน้าที่ยังไม่ได้บันทึก.
+คุณต้องการออกจากเกมเดี๋ยวนี้หรือไม่?","Tu dois quitter le jeu pour jouer en tant que %(NewPlayer).
+%(CurrentPlayer) perdra toute progression non sauvegardée.
+Veux-tu quitter le jeu maintenant ?","Para jugar como %(NewPlayer), debes abandonar la partida.
+%(CurrentPlayer) perderá los progresos que no se hayan guardado.
+¿Deseas salir ahora?","Um als %(NewPlayer) zu spielen, musst du das Spiel beenden.
+Der nicht gespeicherte Fortschritt von %(CurrentPlayer) geht verloren.
+Möchtest du das Spiel jetzt beenden?","Per giocare come %(NewPlayer), devi uscire dal gioco.
+I progressi non salvati di %(CurrentPlayer) andranno persi.
+Vuoi uscire dal gioco ora?","Para jogar como %(NewPlayer), você precisa sair do jogo.
+%(CurrentPlayer) perderá o progresso que não foi salvo.
+Deseja sair do jogo agora?","%(NewPlayer)でプレイするには、ゲームをやめる必要があります。
+%(CurrentPlayer)のセーブしていない進行状況は失われます。
+今すぐゲームをやめますか？"
+,X,xb1_press_button,,กด %(BUTTON),Appuyer sur %(BUTTON),Pulsa %(BUTTON),Drücke %(BUTTON),Premi %(BUTTON),Pressione %(BUTTON),%(BUTTON)を押す
+,X,xb1_ingame_presence_string,,%(HERO) กำลังเล่น %(LOCATION).,%(HERO) joue dans %(LOCATION).,%(HERO) jugando en %(LOCATION).,"%(HERO) spielt ""%(LOCATION)"".",%(HERO) gioca qui: %(LOCATION).,%(HERO) jogando em %(LOCATION).,%(HERO)は%(LOCATION)をプレイ中です。
+,X,xb1_main_menu_presence_string,,เมนูหลัก,Menu principal,Menú principal,Hauptmenü,Menu principale,Menu principal,メインメニュー
+,X,xb1_pause_presence_string,,หยุด,En pause,En pausa,Pause,In pausa,Pausado,一時停止中
+,,trophy_000_name,,Meka Dragon,Dragon Meka,Mekadragón,Meka-Drache,Drago Meka,Dragão Cospe Fogo,メカドラゴン
+,,trophy_000_desc,,สังหาร Meka Dragon.,Dragon Meka terrassé.,Has matado al Mekadragón.,Den Meka-Drachen getötet.,Hai ucciso il Drago Meka.,Derrotou o Dragão Cospe Fogo.,メカドラゴンを倒した。
+,X,trophy_000_desc_pre,,สังหาร Meka Dragon.,Terrasser le Dragon Meka.,Mata al Mekadragón.,Töte den Meka-Drachen.,Uccidi il Drago Meka.,Derrote o Dragão Cospe Fogo.,メカドラゴンを倒す。
+,,trophy_001_name,,Mummy Dragon,Dragon Momie,Dragón Momia,Mumien-Drache,Drago Mummia,Dragão Múmia,ミイラドラゴン
+,,trophy_001_desc,,สังหาร Mummy Dragon.,Dragon Momie terrassé.,Has matado al Dragón Momia.,Den Mumien-Drachen getötet.,Hai ucciso il Drago Mummia.,Derrotou o Dragão Múmia.,ミイラドラゴンを倒した。
+,X,trophy_001_desc_pre,,สังหาร Mummy Dragon.,Terrasser le Dragon Momie.,Mata al Dragón Momia.,Töte den Mumien-Drachen.,Uccidi il Drago Mummia.,Derrote o Dragão Múmia.,ミイラドラゴンを倒す。
+,,trophy_002_name,,Dragon Zombie,Dragon Zombie,Dragón Zombi,Drachen-Zombie,Drago Zombi,Dragão Zumbi,ドラゴンゾンビ
+,,trophy_002_desc,,สังหาร Dragon Zombie.,Dragon Zombie terrassé.,Has matado al Dragón Zombi.,Den Drachen-Zombie getötet.,Hai ucciso il Drago Zombi.,Derrotou o Dragão Zumbi.,ドラゴンゾンビを倒した。
+,X,trophy_002_desc_pre,,สังหาร Dragon Zombie.,Terrasser le Dragon Zombie.,Mata al Dragón Zombi.,Töte den Drachen-Zombie.,Uccidi il Drago Zombi.,Derrote o Dragão Zumbi.,ドラゴンゾンビを倒す。
+,,trophy_003_name,,Captain Dragon,Dragon Capitaine,Dragón Capitán,Kapitän-Drache,Drago Capitano,Dragão Pirata,キャプテンドラゴン
+,,trophy_003_desc,,สังหาร Captain Dragon.,Dragon Capitaine terrassé.,Has matado al Dragón Capitán.,Den Kapitän-Drachen getötet.,Hai ucciso il Drago Capitano.,Derrotou o Dragão Pirata.,キャプテンドラゴンを倒した。
+,X,trophy_003_desc_pre,,สังหาร Captain Dragon.,Terrasser le Dragon Capitaine.,Mata al Dragón Capitán.,Töte den Kapitän-Drachen.,Uccidi il Drago Capitano.,Derrote o Dragão Pirata.,キャプテンドラゴンを倒す。
+,,trophy_004_name,,Daimyo Dragon,Dragon Daimyo,Dragón Daimio,Daimyo-Drache,Drago Daimyo,Dragão Daimyo,ダイミョードラゴン
+,,trophy_004_desc,,สังหาร Daimyo Dragon.,Dragon Daimyo terrassé.,Has matado al Dragón Daimio.,Den Daimyo-Drachen getötet.,Hai ucciso il Drago Daimyo.,Derrotou o Dragão Daimyo.,ダイミョードラゴンを倒した。
+,X,trophy_004_desc_pre,,สังหาร Daimyo Dragon.,Terrasser le Dragon Daimyo.,Mata al Dragón Daimio.,Töte den Daimyo-Drachen.,Uccidi il Drago Daimyo.,Derrote o Dragão Daimyo.,ダイミョードラゴンを倒す。
+,,trophy_005_name,,Vampire Dragon,Dragon Vampire,Dragón Vampiro,Vampir-Drache,Drago Vampiro,Dragão Vampiro,ヴァンパイアドラゴン
+,,trophy_005_desc,,สังหาร Vampire Dragon.,Dragon Vampire terrassé.,Has matado al Dragón Vampiro.,Den Vampir-Drachen getötet.,Hai ucciso il Drago Vampiro.,Derrotou o Dragão Vampiro.,ヴァンパイアドラゴンを倒した。
+,X,trophy_005_desc_pre,,สังหาร Vampire Dragon.,Terrasser le Dragon Vampire.,Mata al Dragón Vampiro.,Töte den Vampir-Drachen.,Uccidi il Drago Vampiro.,Derrote o Dragão Vampiro.,ヴァンパイアドラゴンを倒す。
+,,trophy_006_name,,Hard-Earned,Pas facile-facile,Victoria difícil,Schwer verdient,Meritatissimo,Bem merecido,ハードな努力
+,,trophy_006_desc,,จบเกม (โหมดยาก).,Jeu terminé (mode Difficile).,Has superado el juego (modo Difícil).,Das Spiel abgeschlossen (auf Schwer).,Hai finito il gioco in modalità Difficile.,Zerou o jogo (modo Difícil).,ゲームをクリアした（ハードモード）。
+,X,trophy_006_desc_pre,,จบเกม (โหมดยาก).,Terminer le jeu (mode Difficile).,Supera el juego (modo Difícil).,Spiel abschließen (auf Schwer).,Finisci il gioco in modalità Difficile.,Zere o jogo (modo Difícil).,ゲームをクリアする（ハードモード）。
+,,trophy_007_name,,The Lizard-Man Stone,La pierre de Lézard-Man,La piedra del hombre lagarto,Der Echsling-Stein,Pietra Incantata della Lucertola,A Pedra do Homem-Lagarto,リザードマンストーン
+,,trophy_007_desc,,Found Charm Stone in Lizard-Man's secret location.,Pierre de charme trouvée dans la zone secrète de Lézard-Man.,Has encontrado la piedra talismán en la ubicación secreta del hombre lagarto.,Charme-Stein im Geheimversteck des Echslings gefunden.,Hai trovato la Pietra Incantata nel luogo segreto della Lucertola. ,Encontrou a Pedra Encantada no local secreto do Homem-Lagarto.,リザードマンの秘密の場所でチャームストーンを見つけた。
+,,trophy_008_name,,The Mouse-Man Stone,La pierre de Souris-Man,La piedra del hombre ratón,Der Mausling-Stein,Pietra Incantata del Topo,A Pedra do Homem-Rato,マウスマンストーン
+,,trophy_008_desc,,Found Charm Stone in Mouse-Man's secret location.,Pierre de charme trouvée dans la zone secrète de Souris-Man.,Has encontrado la piedra talismán en la ubicación secreta del hombre ratón.,Charme-Stein im Geheimversteck des Mauslings gefunden.,Hai trovato la Pietra Incantata nel luogo segreto del Topo.,Encontrou a Pedra Encantada no local secreto do Homem-Rato.,マウスマンの秘密の場所でチャームストーンを見つけた。
+,,trophy_009_name,,The Piranha-Man Stone,La pierre de Piranha-Man,La piedra del hombre piraña,Der Piranha-ling-Stein,Pietra Incantata del Piranha,A Pedra do Homem-Peixe,ピラニアマンストーン
+,,trophy_009_desc,,Found Charm Stone in Piranha-Man's secret location.,Pierre de charme trouvée dans la zone secrète de Piranha-Man.,Has encontrado la piedra talismán en la ubicación secreta del hombre piraña.,Charme-Stein im Geheimversteck des Piranha-lings gefunden.,Hai trovato la Pietra Incantata nel luogo segreto del Piranha.,Encontrou a Pedra Encantada no local secreto do Homem-Peixe.,ピラニアマンの秘密の場所でチャームストーンを見つけた。
+,,trophy_010_name,,The Lion-Man Stone,La pierre de Lion-Man,La piedra del hombre león,Der Löwling-Stein,Pietra Incantata del Leone,A Pedra do Homem-Leão,ライオンマンストーン
+,,trophy_010_desc,,Found Charm Stone in Lion-Man's secret location.,Pierre de charme trouvée dans la zone secrète de Lion-Man.,Has encontrado la piedra talismán en la ubicación secreta del hombre león.,Charme-Stein im Geheimversteck des Löwlings gefunden.,Hai trovato la Pietra Incantata nel luogo segreto del Leone.,Encontrou a Pedra Encantada no local secreto do Homem-Leão.,ライオンマンの秘密の場所でチャームストーンを見つけた。
+,,trophy_011_name,,The Hawk-Man Stone,La pierre de Faucon-Man,La piedra del hombre halcón,Der Falkling-Stein,Pietra Incantata del Falco,A Pedra do Homem-Falcão,ホークマンストーン
+,,trophy_011_desc,,Found Charm Stone in Hawk-Man's secret location.,Pierre de charme trouvée dans la zone secrète de Faucon-Man.,Has encontrado la piedra talismán en la ubicación secreta del hombre halcón.,Charme-Stein im Geheimversteck des Falklings gefunden.,Hai trovato la Pietra Incantata nel luogo segreto del Falco.,Encontrou a Pedra Encantada no local secreto do Homem-Falcão.,ホークマンの秘密の場所でチャームストーンを見つけた。
+,,trophy_012_name,,The Hu-Man Stone,La pierre de Hu-Man,La piedra del humano,Der Jüngling-Stein,Pietra Incantata degli Umani,A Pedra do Hu-Mano,ヒューマンストーン
+,,trophy_012_desc,,Found Charm Stone in Hu-Man's secret location.,Pierre de charme trouvée dans la zone secrète de Hu-Man.,Has encontrado la piedra talismán en la ubicación secreta del humano.,Charme-Stein im Geheimversteck des Jünglings gefunden.,Hai trovato la Pietra Incantata nel luogo segreto degli Umani.,Encontrou a Pedra Encantada no local secreto do Hu-Mano.,ヒューマンの秘密の場所でチャームストーンを見つけた。
+,ETan,credits_000,,"[h1]Wonder Boy: The Dragon's Trap[/h1]
+%(VERSION)
+developed by Lizardcube
+published by DotEmu
+original game by Sega / Westone","[h1]Wonder Boy: The Dragon's Trap[/h1]
+%(VERSION)
+développé par Lizardcube
+édité par DotEmu
+jeu original : Sega / Westone","[h1]Wonder Boy: The Dragon's Trap[/h1]
+%(VERSION)
+desarrollado por Lizardcube
+publicado por DotEmu
+juego original de Sega / Westone","[h1]Wonder Boy: The Dragon's Trap[/h1]
+%(VERSION)
+Entwickler: Lizardcube
+Publisher: DotEmu
+Originalspiel von Sega / Westone","[h1]Wonder Boy: The Dragon's Trap[/h1]
+%(VERSION)
+sviluppato da Lizardcube
+pubblicato da DotEmu
+gioco originale di Sega/Westone","[h1]Wonder Boy: The Dragon's Trap[/h1]
+%(VERSION)
+desenvolvido por Lizardcube
+publicado por DotEmu
+jogo original da Sega / Westone","[h1]ワンダーボーイ　ドラゴンの罠[/h1]
+%(VERSION)
+開発：Lizardcube
+販売：DotEmu
+オリジナル版：セガ / ウエストン"
+,ET,credits_001,,"[h4]This game has received support from the Crédit d'Impôt Jeu Vidéo[/h4]
+[img]CNC.png[/img]
+","[h4]Ce jeu a reçu des aides du Crédit d'Impôt Jeu Vidéo[/h4]
+[img]CNC.png[/img]
+","[h4]Este juego ha recibido apoyo del Crédit d'Impôt Jeu Vidéo[/h4]
+[img]CNC.png[/img]
+","[h4]Dieses Spiel wurde gefördert durch Mittel der Crédit d'Impôt Jeu Vidéo[/h4]
+[img]CNC.png[/img]
+","[h4]Questo gioco ha beneficiato delle agevolazioni del Crédit d'Impôt Jeu Vidéo[/h4]
+[img]CNC.png[/img]
+","[h4]Este jogo teve o apoio do Crédit d'Impôt Jeu Vidéo[/h4]
+[img]CNC.png[/img]
+","[h4]このゲームはCrédit d'Impôt Jeu Vidéoのサポートを受けています[/h4]
+[img]CNC.png[/img]
+"
+,ET,credits_002,,"[love] [h2]CAST[/h2] [love]
+[h4](original 1989 typos included)[/h4]
+
+Cyclops
+Will O'Wisp
+Falling Block
+Giant Bat
+Skelton
+Master Skelton
+Skull
+Master Skull
+Wondering Born
+Air Giant
+Side-Crawler
+Giant Toad
+Shadow-Man
+Faerie Zombie
+Fuzzball
+Deadly Ninja
+Deadly Samurai
+Fire Octpus
+Hovering Smog
+Roper
+Giant Fish
+Goblin
+Giant Cobra
+Fire Ant-Lion
+Spark
+Fire Stone
+Fire Flower
+Mecha Dragon
+Mummy Dragon
+Dragon Zombie
+Captain Dragon
+Daimyo Dragon
+Vampier Dragon",,,,,,
+,ET,credits_004,,"[love] [h2]LIZARDCUBE & GAME TEAM[/h2] [love]
+
+[h3]Animation, Art[/h3]
+Ben Fiquet
+[img]Ben.jpg[/img]
+
+[h3]Technology, Direction[/h3]
+Omar Cornut
+[img]Omar.jpg[/img]
+
+[h3]Music[/h3]
+Michael Geyre
+[img]Michael.jpg[/img]
+
+[h3]Sound Effects[/h3]
+Romain Gauthier
+[img]Romain.jpg[/img]
+
+[h3]Technology[/h3]
+Sébastien Ronsse
+[img]Seb.jpg[/img]",,,,,,
+,L,credits_005,,"[h3]Mac and Linux versions[/h3]
+Ethan Lee
+[h4]flibitijibibo.com[/h4]",,,,,,
+,ET,credits_006,,"[love] [h2]ORIGINAL 1989 GAME TEAM (WESTONE)[/h2] [love]
+
+[h3]Director[/h3]
+Ryuichi Nishizawa
+[img]Ryuichi.jpg[/img]
+
+[h3]Programmer[/h3]
+Takanori Kurihara
+[img]Takanori.jpg[/img]
+
+[h3]Art[/h3]
+Hiromi Kurihara
+[img]Hiromi.jpg[/img]
+
+[h3]Music, Audio[/h3]
+Shinichi Sakamoto
+[img]Shinichi.jpg[/img]
+",,,,,,
+,ET,credits_008,,"[love] [h2]DOTEMU[/h2] [love]
+
+[h3]CEO[/h3]
+Cyrille Imbert
+[img]Cyrille.jpg[/img]
+
+[h3]Marketing and Communication[/h3]
+Jessica Iragne
+[img]Jessica.jpg[/img]
+Arnaud De Sousa
+[img]Arnaud.jpg[/img]
+
+[h3]Art[/h3]
+Stephane Perez
+[img]Steph.jpg[/img]
+
+[h3]Management[/h3]
+Christian Cortez
+[img]Christian.jpg[/img]
+Hugo Lefevre
+[img]Hugo.jpg[/img]
+
+[h3]Internal Quality Assurance[/h3]
+Elora Gleizes
+[img]Elora.jpg[/img]
+Pierre-Olivier Petillot
+[img]Peo.jpg[/img]",,,,,,
+,ET,credits_010,,"[love] [h2]Seaven Studio[/h2] [love]
+(Programming Support)
+
+Pascal Féard
+[img]Pascal.jpg[/img]
+
+Olivier Penot
+[img]Olivier.jpg[/img",,,,,,
+,ET,credits_014,,"[love] [h2]LAT[/h2] [love]
+
+Shinji Fujiwara",,,,,,
+,ET,credits_020,,"[love] [h2]ACE Agency[/h2] [love]
+(Localization)
+",,,,,,
+,ET,credits_021,,"[love] [h2]Enzyme Testing Labs[/h2] [love]
+(Quality Assurance)
+
+[img]Enzyme.jpg[/img]
+
+[h3]Management[/h3]
+Sébastien Paradis
+Steve Paquin
+Thomas Mann
+Maxim Lacasse
+Pascal Meunier
+Francesca Scelfo
+Jose Menendez Llosa
+
+[h3]FQA Testers[/h3]
+Shawn Girard
+Philipe Côté
+
+[h3]CQA Testers[/h3]
+Frédéric Renard
+Mélanie Labonté
+Mickey Morais
+Vincent Berger Millette
+Michael Coulombe
+
+[h3]LQA Testers[/h3]
+
+[img]EnzymeLQA.jpg[/img]
+
+[h3]English[/h3]
+Jeremy Wells
+
+[h3]French[/h3]
+Megan Davies
+
+[h3]Italian[/h3]
+Casey Roselli
+
+[h3]German[/h3]
+Simon Chilcott
+
+[h3]Spanish[/h3]
+Abril Borja
+
+[h3]Brazilian[/h3]
+Renata Hafemann
+
+[h3]Japanese[/h3]
+Tomoe Higuchi",,,,,,
+,ET,credits_030,,"[love] [h2]WITH A BIT OF EXTRA HELP FROM[/h2] [love]
+
+César Leblic
+David Calvo
+Etienne Périn
+Vincent Hamm",,,,,,
+,ET,credits_040,,"[love] [h2]MUSIC TEAM[/h2] [love]
+
+Music based on original tracks by Shinichi Sakamoto.
+
+[h3]Direction, Arrangements, Programming[/h3]
+[h3]Accordion, Piano, Synthesizers[/h3]
+Michael Geyre
+
+[h3]Alto[/h3]
+Marie-Laure Prioleau
+
+[h3]Bandoneon[/h3]
+Patrick Brugalières
+
+[h3]Bansuri Flute[/h3]
+Émilie Calmé
+
+[h3]Cello[/h3]
+Emmanuelle Faure
+
+[h3]Clarinet[/h3]
+Eric Moncoucout
+
+[h3]Double Bass[/h3]
+Mathieu Sternat
+
+[h3]Drums[/h3]
+Ersoj Kazimov
+
+[h3]Guitar[/h3]
+Loïc le Guillanton
+
+[h3]Mandolin, Violin[/h3]
+Camille Raibaud
+
+[h3]Oboe[/h3]
+Eric Cassen
+
+[h3]Oud[/h3]
+Ziad Ben Youssef
+
+[h3]Tenor Sax[/h3]
+Ernest W Hillard
+
+[h3]Trumpet, Cornet, Trombone[/h3]
+Michael W Hillard
+
+[h3]Violin[/h3]
+Yann Brébia
+Jean-Christophe Morel
+
+[h3]Whistle[/h3]
+Arnaud Bibone
+
+[h3]Additional Arrangements, Programming[/h3]
+Romain Gauthier
+
+[h3]Additional Drums[/h3]
+Gaétan Diaz
+
+[h3]Additional Violin[/h3]
+Adèle Docherty
+
+[h3]Recording[/h3]
+Pierre Delmas
+Olivier Grall
+
+[h3]Mixing, Mastering[/h3]
+Olivier Grall
+
+[h3]Recorded at Studio Patrick Brugalières.[/h3]",,,,,,
+,ET,credits_050,,"[love] [h2]FREE SOFTWARE[/h2] [love]
+
+[h4]This game uses technology by Pastagames
+http://pastagames.com/
+
+This game uses stb_freetype, stb_image, stb_image_write,
+stb_rect_pack, stb_textedit, stb_vorbis, by Sean Barrett & contributors
+This game uses stb_image_resize by Jorge L Rodriguez
+https://github.com/nothings/stb
+
+This game uses the SoLoud audio Engine by Jari Komppa
+http://sol.gfxile.net/soloud
+
+This game uses Dear ImGui by Omar Cornut & contributors
+https://github.com/ocornut/imgui
+
+This game uses the Portable Z80 Emulator & Disassembler by Juergen Buchmueller and the MAME team
+http://mamedev.org
+[small]Portable Z80 Emulator Copyright 1997-2017 Juergen Buchmueller and the MAME team
+Portable Z80 Disassembler Copyright 1997-2017 Juergen Buchmueller and the MAME team
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products
+derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.[/small]
+
+This game uses Spine Runtimes by Esoteric Software
+http://esotericsoftware.com
+[small]Spine Runtimes Software License v2.5
+Copyright (c) 2013-2016, Esoteric Software All rights reserved.
+
+You are granted a perpetual, non-exclusive, non-sublicensable, and non-transferable license to use, install, execute, and perform
+the Spine Runtimes software and derivative works solely for personal or internal use. Without the written permission of Esoteric Software
+(see Section 2 of the Spine Software License Agreement), you may not (a) modify, translate, adapt, or develop new applications using
+the Spine Runtimes or otherwise create derivative works or improvements of the Spine Runtimes or (b) remove, delete, alter, or obscure
+any trademarks or any copyright, trademark, patent, or other intellectual property or proprietary rights notices on or in the Software,
+including any copy thereof. Redistributions in binary or source form must include this license and terms.
+
+THIS SOFTWARE IS PROVIDED BY ESOTERIC SOFTWARE ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL ESOTERIC SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, BUSINESS INTERRUPTION, OR LOSS OF USE, DATA, 
+OR PROFITS) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.[/small]
+
+This game uses IconFontCppHeaders by Juliette Foucaut
+https://github.com/juliettef/IconFontCppHeaders
+[/h4]
+
+",,,,,,
+,ET,credits_051,,"[love] [h2]FONTS[/h2] [love]
+
+[h4]This game uses the Josefin Sans fonts by Santiago Orozco
+[small]Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved.
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL[/small]
+
+This game uses the Nono Sans CJK fonts by Google
+This game uses the Nono Mono font by Google
+[small]This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL[/small]
+",,,,,,
+,ET,credits_060,,"[love] [h2]SPECIAL THANKS[/h2] [love]
+
+Andrea Babich, Paolo Baerlocher, Frank Cifaldi, Olivier Chatry,
+Liam Conroy, Fabien Delpiano, Fabrice Dumas, Game Atelier,
+Quentin Geyre, Maxim Gready, Anne Ferrero, Sylvain Hellio,
+Alex Ka, Jeremy Laumon, Lionel Prévot, Oriane Sanvito,
+Mattia Ravanelli, Thomas Volbrecht, Kenny Young.
+",,,,,,
+,ETan,credits_070,,"[h2]© SEGA/LAT, All rights reserved.
+© 2017 DotEmu SAS, All rights reserved.
+Original game © SEGA/LAT
+Developed by Lizardcube.[/h2]",,,,,,
+,ETan,credits_071,,"[h4]For any assistance, please contact customer service at <support@dotemu.com>[/h4]","[h4]Si tu as besoin d'aide, n'hésite pas à contacter le service client à l'adresse <support@dotemu.com>[/h4]","[h4]Si necesitas ayuda, contacta con el servicio de atención al cliente a través de <support@dotemu.com>[/h4]",[h4]Bei Fragen steht dir unser Kundendienst unter <support@dotemu.com> zur Verfügung[/h4] ,"[h4]Per ricevere assistenza, contatta il servizio clienti all'indirizzo <support@dotemu.com>[/h4]","[h4]Para obter ajuda, entre em contato com o atendimento ao cliente pelo email <support@dotemu.com>[/h4]",[h4]ご不明な点などございましたら、カスタマーサービス <support@dotemu.com> までお問い合わせください[/h4]
+,E_,credits_072,,"
+
+
+
+
+
+
+[love] [h1]THANK YOU[/h1] [love]
+","
+
+
+
+
+
+
+[love] [h1]MERCI[/h1] [love]
+","
+
+
+
+
+
+
+[love] [h1]GRACIAS[/h1] [love]
+","
+
+
+
+
+
+
+[love] [h1]VIELEN DANK[/h1] [love]
+","
+
+
+
+
+
+
+[love] [h1]GRAZIE[/h1] [love]
+","
+
+
+
+
+
+
+[love] [h1]OBRIGADO[/h1] [love]
+","
+
+
+
+
+
+[love] [h1]サンキュー[/h1] [love]"
+,,credits_thankyou_02,,"ฝันดี, นักรบผู้กล้า.
+ฝันดี, มอนสเตอร์แลน...","Bonne nuit, valeureux guerrier.
+Bonne nuit, Monster Land...","Buenas noches, valiente guerrero.
+Buenas noches, Monster Land...","Gute Nacht, tapferer Krieger.
+Gute Nacht, Monster Land ...","Buona notte, instancabile combattente.
+Buona notte, Monster Land...","Boa noite, até a próxima aventura.
+Boa noite, Monster Land....","おやすみ　ゆうしゃよ。
+おやすみ　モンスターワールド・・・・"
+,,credits_thankyou_02_girl,,"ฝันดี, นักรบผู้กล้า.
+ฝันดี, มอนสเตอร์แลน...","Bonne nuit, valeureuse guerrière.
+Bonne nuit, Monster Land...","Buenas noches, valiente guerrera.
+Buenas noches, Monster Land...","Gute Nacht, tapfere Kriegerin.
+Gute Nacht, Monster Land ...","Buona notte, instancabile combattente.
+Buona notte, Monster Land...","Boa noite, até a próxima aventura.
+Boa noite, Monster Land....","おやすみ　ゆうしゃよ。
+おやすみ　モンスターワールド・・・・"
+,,credits_hint_00,,มีความลับอีกมากมายที่รอพบเจอ...,Il y a encore des secrets à percer...,Hay más secretos por descubrir...,Es gibt noch mehr Geheimnisse zu entdecken ...,Ci sono altri segreti da sbloccare...,Há mais segredos para serem revelados...,まだ秘密が隠されています……
+,,credits_hint_01_boy,,[h4]คุณสามารถออกสำรวจต่อไปในฐานะ Hu-Man![/h4],[h4]Tu peux continuer à explorer sous les traits de Hu-Man ![/h4],[h4]¡Puedes seguir explorando en forma de humano![/h4],[h4]Du kannst als Jüngling weiterspielen![/h4],[h4]Puoi continuare a esplorare in forma umana![/h4],[h4]Você pode continuar explorando como Hu-Mano![/h4],[h4]ヒューマンで探検を続けましょう！[/h4]
+,,credits_hint_01_girl,,[h4]คุณสามารถออกสำรวจต่อไปในฐานะ Hu-Girl![/h4],[h4]Tu peux continuer à explorer sous les traits de Hu-Girl ![/h4],[h4]¡Puedes seguir explorando en forma de humana![/h4],[h4]Du kannst als Mädling weiterspielen![/h4],[h4]Puoi continuare a esplorare in forma umana![/h4],[h4]Você pode continuar explorando como Hu-Mana![/h4],[h4]ヒューガールで探検を続けましょう！[/h4]
+,,credits_hint_gallery_01,,รายการแกลเลอรีใหม่ปลดล็อค!,Nouveaux éléments de la galerie débloqués !,¡Nuevos elementos desbloqueados en la galería!,Neue Items in der Galerie freigeschaltet!,Nuovi elementi sbloccati nella galleria!,Você desbloqueou itens da Galeria!,ギャラリーの新アイテムをアンロック！
+,,credits_hint_gallery_02,,ตรวจสอบแกลเลอรีเพื่อดูเนื้อหาเพิ่มเติม!,Jette un coup d'oeil à la galerie pour en découvrir du contenu supplémentaire !,¡Puedes encontrar contenido extra en la galería!,Besuche die Galerie für neue Inhalte!,Guarda la galleria per scoprire contenuti extra!,Confira o conteúdo extra na Galeria!,ギャラリーで特別コンテンツをチェックしよう！
+,an,tech_support,,"สำหรับความช่วยเหลืออื่นๆ, โปรดติดต่อ DotEmu customer service ที่ <support@dotemu.com>.","Si tu as besoin d'aide, n'hésite pas à contacter le service client de DotEmu à l'adresse <support@dotemu.com>.","Si necesitas ayuda, contacta con el servicio de atención al cliente de DotEmu a través de <support@dotemu.com>.",Bei Fragen steht dir unser DotEmu Kundendienst unter <support@dotemu.com> zur Verfügung.,"Per ricevere assistenza, contatta il servizio clienti DotEmu all'indirizzo <support@dotemu.com>.","Para obter ajuda, entre em contato com a DotEmu em seu serviço de atendimento ao cliente, pelo e-mail <support@dotemu.com>.",ご不明な点などございましたら、DotEmuのカスタマーサービス <support@dotemu.com> までお問い合わせください。

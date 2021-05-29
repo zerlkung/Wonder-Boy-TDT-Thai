@@ -1,0 +1,13 @@
+Josefin Sans fonts
+Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved.
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+Nono Mono = OFL
+Nono Sans CJK = OFL
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+Bokutachi no Gothic 2 font
+by Fontopo
+Apache License, Version 2.0, January 2004, http://www.apache.org/licenses
